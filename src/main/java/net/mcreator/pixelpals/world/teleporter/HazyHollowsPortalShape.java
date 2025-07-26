@@ -26,7 +26,7 @@ import javax.annotation.Nullable;
 import java.util.function.Predicate;
 import java.util.Optional;
 
-public class HazyHectaresPortalShape {
+public class HazyHollowsPortalShape {
 	private static final int MIN_WIDTH = 2;
 	public static final int MAX_WIDTH = 21;
 	private static final int MIN_HEIGHT = 3;
@@ -41,7 +41,7 @@ public class HazyHectaresPortalShape {
 	private final int height;
 	private final int width;
 
-	public HazyHectaresPortalShape(Direction.Axis p_77697_, int p_374222_, Direction p_374407_, BlockPos p_77696_, int p_374218_, int p_374477_) {
+	public HazyHollowsPortalShape(Direction.Axis p_77697_, int p_374222_, Direction p_374407_, BlockPos p_77696_, int p_374218_, int p_374477_) {
 		this.axis = p_77697_;
 		this.numPortalBlocks = p_374222_;
 		this.rightDir = p_374407_;
@@ -50,12 +50,12 @@ public class HazyHectaresPortalShape {
 		this.height = p_374477_;
 	}
 
-	public static Optional<HazyHectaresPortalShape> findEmptyPortalShape(LevelAccessor p_77709_, BlockPos p_77710_, Direction.Axis p_77711_) {
+	public static Optional<HazyHollowsPortalShape> findEmptyPortalShape(LevelAccessor p_77709_, BlockPos p_77710_, Direction.Axis p_77711_) {
 		return findPortalShape(p_77709_, p_77710_, p_77727_ -> p_77727_.isValid() && p_77727_.numPortalBlocks == 0, p_77711_);
 	}
 
-	public static Optional<HazyHectaresPortalShape> findPortalShape(LevelAccessor p_77713_, BlockPos p_77714_, Predicate<HazyHectaresPortalShape> p_77715_, Direction.Axis p_77716_) {
-		Optional<HazyHectaresPortalShape> optional = Optional.of(findAnyShape(p_77713_, p_77714_, p_77716_)).filter(p_77715_);
+	public static Optional<HazyHollowsPortalShape> findPortalShape(LevelAccessor p_77713_, BlockPos p_77714_, Predicate<HazyHollowsPortalShape> p_77715_, Direction.Axis p_77716_) {
+		Optional<HazyHollowsPortalShape> optional = Optional.of(findAnyShape(p_77713_, p_77714_, p_77716_)).filter(p_77715_);
 		if (optional.isPresent()) {
 			return optional;
 		} else {
@@ -64,19 +64,19 @@ public class HazyHectaresPortalShape {
 		}
 	}
 
-	public static HazyHectaresPortalShape findAnyShape(BlockGetter p_374054_, BlockPos p_374346_, Direction.Axis p_374516_) {
+	public static HazyHollowsPortalShape findAnyShape(BlockGetter p_374054_, BlockPos p_374346_, Direction.Axis p_374516_) {
 		Direction direction = p_374516_ == Direction.Axis.X ? Direction.WEST : Direction.SOUTH;
 		BlockPos blockpos = calculateBottomLeft(p_374054_, direction, p_374346_);
 		if (blockpos == null) {
-			return new HazyHectaresPortalShape(p_374516_, 0, direction, p_374346_, 0, 0);
+			return new HazyHollowsPortalShape(p_374516_, 0, direction, p_374346_, 0, 0);
 		} else {
 			int i = calculateWidth(p_374054_, blockpos, direction);
 			if (i == 0) {
-				return new HazyHectaresPortalShape(p_374516_, 0, direction, blockpos, 0, 0);
+				return new HazyHollowsPortalShape(p_374516_, 0, direction, blockpos, 0, 0);
 			} else {
 				MutableInt mutableint = new MutableInt();
 				int j = calculateHeight(p_374054_, blockpos, direction, i, mutableint);
-				return new HazyHectaresPortalShape(p_374516_, mutableint.getValue(), direction, blockpos, i, j);
+				return new HazyHollowsPortalShape(p_374516_, mutableint.getValue(), direction, blockpos, i, j);
 			}
 		}
 	}
@@ -148,7 +148,7 @@ public class HazyHectaresPortalShape {
 				if (!isEmpty(blockstate)) {
 					return i;
 				}
-				if (blockstate.getBlock() == PixelPals01ModBlocks.HAZY_HECTARES_PORTAL.get()) {
+				if (blockstate.getBlock() == PixelPals01ModBlocks.HAZY_HOLLOWS_PORTAL.get()) {
 					p_374330_.increment();
 				}
 			}
@@ -157,7 +157,7 @@ public class HazyHectaresPortalShape {
 	}
 
 	private static boolean isEmpty(BlockState p_77718_) {
-		return p_77718_.isAir() || p_77718_.getBlock() == PixelPals01ModBlocks.HAZY_HECTARES_PORTAL.get();
+		return p_77718_.isAir() || p_77718_.getBlock() == PixelPals01ModBlocks.HAZY_HOLLOWS_PORTAL.get();
 	}
 
 	public boolean isValid() {
@@ -165,7 +165,7 @@ public class HazyHectaresPortalShape {
 	}
 
 	public void createPortalBlocks(LevelAccessor p_374419_) {
-		BlockState blockstate = PixelPals01ModBlocks.HAZY_HECTARES_PORTAL.get().defaultBlockState().setValue(NetherPortalBlock.AXIS, this.axis);
+		BlockState blockstate = PixelPals01ModBlocks.HAZY_HOLLOWS_PORTAL.get().defaultBlockState().setValue(NetherPortalBlock.AXIS, this.axis);
 		BlockPos.betweenClosed(this.bottomLeft, this.bottomLeft.relative(Direction.UP, this.height - 1).relative(this.rightDir, this.width - 1)).forEach(p_374024_ -> p_374419_.setBlock(p_374024_, blockstate, 18));
 	}
 

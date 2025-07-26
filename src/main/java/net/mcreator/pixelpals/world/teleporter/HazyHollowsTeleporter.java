@@ -32,21 +32,21 @@ import java.util.Comparator;
 import com.google.common.collect.ImmutableSet;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
-public class HazyHectaresTeleporter {
+public class HazyHollowsTeleporter {
 	public static Holder<PoiType> poi = null;
 
 	@SubscribeEvent
 	public static void registerPointOfInterest(RegisterEvent event) {
 		event.register(Registries.POINT_OF_INTEREST_TYPE, registerHelper -> {
-			PoiType poiType = new PoiType(ImmutableSet.copyOf(PixelPals01ModBlocks.HAZY_HECTARES_PORTAL.get().getStateDefinition().getPossibleStates()), 0, 1);
-			registerHelper.register(ResourceLocation.parse("pixel_pals_01:hazy_hectares_portal"), poiType);
+			PoiType poiType = new PoiType(ImmutableSet.copyOf(PixelPals01ModBlocks.HAZY_HOLLOWS_PORTAL.get().getStateDefinition().getPossibleStates()), 0, 1);
+			registerHelper.register(ResourceLocation.parse("pixel_pals_01:hazy_hollows_portal"), poiType);
 			poi = BuiltInRegistries.POINT_OF_INTEREST_TYPE.wrapAsHolder(poiType);
 		});
 	}
 
 	private final ServerLevel level;
 
-	public HazyHectaresTeleporter(ServerLevel level) {
+	public HazyHollowsTeleporter(ServerLevel level) {
 		this.level = level;
 	}
 
@@ -131,7 +131,7 @@ public class HazyHectaresTeleporter {
 				}
 			}
 		}
-		BlockState blockstate = PixelPals01ModBlocks.HAZY_HECTARES_PORTAL.get().defaultBlockState().setValue(NetherPortalBlock.AXIS, p_77668_);
+		BlockState blockstate = PixelPals01ModBlocks.HAZY_HOLLOWS_PORTAL.get().defaultBlockState().setValue(NetherPortalBlock.AXIS, p_77668_);
 		for (int k2 = 0; k2 < 2; k2++) {
 			for (int l2 = 0; l2 < 3; l2++) {
 				blockpos$mutableblockpos.setWithOffset(blockpos, k2 * direction.getStepX(), l2, k2 * direction.getStepZ());

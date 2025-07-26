@@ -4,7 +4,10 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "CUSTOM:BriskBackwoods"
+        "value": "CUSTOM:WildWood"
+      },
+      {
+        "value": "CUSTOM:PebblePond"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -18,12 +21,12 @@
     "generateOreVeins": false,
     "generateAquifers": false,
     "horizontalNoiseSize": 1,
-    "verticalNoiseSize": 2,
+    "verticalNoiseSize": 4,
     "defaultEffects": "overworld",
     "useCustomEffects": true,
     "hasClouds": true,
     "cloudHeight": 192.0,
-    "skyType": "NORMAL",
+    "skyType": "NONE",
     "sunHeightAffectsFog": false,
     "canRespawnHere": false,
     "hasFog": true,

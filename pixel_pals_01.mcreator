@@ -283,11 +283,11 @@
       "path": "~/Procedures"
     },
     {
-      "name": "PokemonModelVisualScale",
+      "name": "Test",
       "type": "procedure",
       "compiles": true,
-      "locked_code": true,
-      "registry_name": "pokemon_model_visual_scale",
+      "locked_code": false,
+      "registry_name": "test",
       "metadata": {
         "dependencies": [
           {
@@ -295,21 +295,6 @@
             "type": "entity"
           }
         ],
-        "return_type": "number",
-        "files": [
-          "src/main/java/net/mcreator/pixelpals/procedures/PokemonModelVisualScaleProcedure.java"
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "Test",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test",
-      "metadata": {
-        "dependencies": [],
         "files": [
           "src/main/java/net/mcreator/pixelpals/procedures/TestProcedure.java"
         ]
@@ -2206,19 +2191,6 @@
       "path": "~/Features"
     },
     {
-      "name": "BriskBackwoods",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "brisk_backwoods",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/pixel_pals_01/worldgen/biome/brisk_backwoods.json"
-        ]
-      },
-      "path": "~/Biomes"
-    },
-    {
       "name": "WartortleMask",
       "type": "item",
       "compiles": true,
@@ -2279,28 +2251,72 @@
       "path": "~/Masks"
     },
     {
-      "name": "HazyHectares",
+      "name": "WildWood",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pixel_pals_01/worldgen/biome/wild_wood.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "BeachPebbles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "beach_pebbles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pixel_pals_01/items/beach_pebbles.json",
+          "src/main/resources/assets/pixel_pals_01/blockstates/beach_pebbles.json",
+          "src/main/java/net/mcreator/pixelpals/block/BeachPebblesBlock.java",
+          "src/main/resources/data/pixel_pals_01/loot_table/blocks/beach_pebbles.json",
+          "src/main/resources/assets/pixel_pals_01/models/item/beach_pebbles.json",
+          "src/main/resources/assets/pixel_pals_01/models/block/beach_pebbles.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "HazyHollows",
       "type": "dimension",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hazy_hectares",
+      "registry_name": "hazy_hollows",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/models/block/hazy_hectares_portal_ew.json",
-          "src/main/resources/data/pixel_pals_01/dimension/hazy_hectares.json",
-          "src/main/java/net/mcreator/pixelpals/world/teleporter/HazyHectaresTeleporter.java",
-          "src/main/resources/assets/pixel_pals_01/models/block/hazy_hectares_portal_ns.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/hazy_hectares_portal.json",
-          "src/main/resources/data/pixel_pals_01/dimension_type/hazy_hectares.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/hazy_hectares.json",
-          "src/main/java/net/mcreator/pixelpals/world/teleporter/HazyHectaresPortalShape.java",
-          "src/main/java/net/mcreator/pixelpals/block/HazyHectaresPortalBlock.java",
-          "src/main/resources/assets/pixel_pals_01/items/hazy_hectares.json",
-          "src/main/java/net/mcreator/pixelpals/item/HazyHectaresItem.java",
-          "src/main/java/net/mcreator/pixelpals/world/dimension/HazyHectaresDimension.java"
+          "src/main/java/net/mcreator/pixelpals/item/HazyHollowsItem.java",
+          "src/main/resources/assets/pixel_pals_01/models/item/hazy_hollows.json",
+          "src/main/resources/assets/pixel_pals_01/items/hazy_hollows.json",
+          "src/main/resources/assets/pixel_pals_01/models/block/hazy_hollows_portal_ew.json",
+          "src/main/java/net/mcreator/pixelpals/world/teleporter/HazyHollowsPortalShape.java",
+          "src/main/java/net/mcreator/pixelpals/block/HazyHollowsPortalBlock.java",
+          "src/main/resources/assets/pixel_pals_01/blockstates/hazy_hollows_portal.json",
+          "src/main/java/net/mcreator/pixelpals/world/dimension/HazyHollowsDimension.java",
+          "src/main/java/net/mcreator/pixelpals/world/teleporter/HazyHollowsTeleporter.java",
+          "src/main/resources/data/pixel_pals_01/dimension_type/hazy_hollows.json",
+          "src/main/resources/assets/pixel_pals_01/models/block/hazy_hollows_portal_ns.json",
+          "src/main/resources/data/pixel_pals_01/dimension/hazy_hollows.json"
         ]
       },
       "path": "~/Dimensions"
+    },
+    {
+      "name": "PebblePond",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pebble_pond",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pixel_pals_01/worldgen/biome/pebble_pond.json"
+        ]
+      },
+      "path": "~/Biomes"
     }
   ],
   "variable_elements": [
@@ -2486,9 +2502,9 @@
     },
     {
       "name": "pselected",
-      "type": "itemstack",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "1.0"
     }
   ],
   "sound_elements": [
@@ -2719,6 +2735,7 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:BeachPebbles",
       "~CUSTOM:Slate",
       "~CUSTOM:ForestFloor",
       "~CUSTOM:Soil"
@@ -2846,12 +2863,14 @@
       "item.pixel_pals_01.slate": "Slate",
       "item.pixel_pals_01.soil": "Soil",
       "item.pixel_pals_01.forest_floor": "Forest Floor",
-      "biome.pixel_pals_01.brisk_backwoods": "Brisk Backwoods",
       "item.pixel_pals_01.wartortle_mask": "Pidgey Mask",
       "item.pixel_pals_01.wartortle_s_mask": "Pidgey Mask",
       "item.pixel_pals_01.squirtle_mask": "Pidgey Mask",
       "item.pixel_pals_01.squirtle_s_mask": "Pidgey Mask",
-      "item.pixel_pals_01.hazy_hectares": "Wild Wood Portal Igniter"
+      "biome.pixel_pals_01.wild_wood": "Wild Wood",
+      "item.pixel_pals_01.beach_pebbles": "Beach Pebbles",
+      "item.pixel_pals_01.hazy_hollows": "Wild Wood Portal Igniter",
+      "biome.pixel_pals_01.pebble_pond": "Pebble Pond"
     }
   },
   "metadata": {

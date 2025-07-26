@@ -44,6 +44,7 @@ public class PixelPals01ModTabs {
 				tabData.accept(PixelPals01ModBlocks.SLATE.get().asItem());
 				tabData.accept(PixelPals01ModBlocks.SOIL.get().asItem());
 				tabData.accept(PixelPals01ModBlocks.FOREST_FLOOR.get().asItem());
+				tabData.accept(PixelPals01ModBlocks.BEACH_PEBBLES.get().asItem());
 			}).build());
 
 	@SubscribeEvent

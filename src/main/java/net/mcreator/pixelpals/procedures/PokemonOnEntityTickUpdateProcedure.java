@@ -5,6 +5,7 @@ import net.minecraft.world.phys.AABB;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
@@ -26,10 +27,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 		if (entity == null)
 			return;
 		entity.setCustomName(Component.literal("Lvl " + entity.getEntityData().get(PokemonEntity.DATA_Level)));
-		refreshSpecies(entity, world, false);
+		refreshSpecies(entity, world);
 		//
 		//
 		//
+		if (entity instanceof LivingEntity _livingEntity0 && _livingEntity0.getAttributes().hasAttribute(Attributes.SCALE))
+			_livingEntity0.getAttribute(Attributes.SCALE).setBaseValue((entity.getEntityData().get(PokemonEntity.DATA_Scale) * 0.01) * (Math.pow(entity.getEntityData().get(PokemonEntity.DATA_Level), 0.5) * 0.1 + 0.5));
 		if (world instanceof Level _level && Math.random() < 0.001 && entity.getEntityData().get(PokemonEntity.DATA_Species) != "") {
 			if (!_level.isClientSide()) {
 				_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("pixel_pals_01:" + entity.getEntityData().get(PokemonEntity.DATA_Species))), SoundSource.NEUTRAL, 1, 1);
@@ -52,7 +55,7 @@ public class PokemonOnEntityTickUpdateProcedure {
 		return (Entity) world.getEntitiesOfClass(clazz, AABB.ofSize(new Vec3(x, y, z), range, range, range), e -> true).stream().sorted(Comparator.comparingDouble(e -> e.distanceToSqr(x, y, z))).findFirst().orElse(null);
 	}
 
-	public static Entity refreshSpecies(Entity entity, LevelAccessor world, boolean isModel) {
+	public static Entity refreshSpecies(Entity entity, LevelAccessor world) {
 		Entity _entity = entity;
 		if (_entity instanceof LivingEntity _living) {
 			switch (entity.getEntityData().get(PokemonEntity.DATA_Species)) {
@@ -115,7 +118,7 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.WARTORTLE_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 55);
-					break;					
+					break;
 				case "blastoise" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.BLASTOISE_S_MASK.get()));
@@ -222,10 +225,6 @@ public class PokemonOnEntityTickUpdateProcedure {
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 110);
 					break;
 			}
-		}
-		if (isModel) {
-			entity.getEntityData().set(PokemonEntity.DATA_Scale, 20);
-			entity.getEntityData().set(PokemonEntity.DATA_Level, 10);
 		}
 		return entity;
 	}

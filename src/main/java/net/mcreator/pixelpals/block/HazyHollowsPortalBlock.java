@@ -37,8 +37,8 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.BlockUtil;
 
-import net.mcreator.pixelpals.world.teleporter.HazyHectaresTeleporter;
-import net.mcreator.pixelpals.world.teleporter.HazyHectaresPortalShape;
+import net.mcreator.pixelpals.world.teleporter.HazyHollowsTeleporter;
+import net.mcreator.pixelpals.world.teleporter.HazyHollowsPortalShape;
 
 import javax.annotation.Nullable;
 
@@ -46,22 +46,22 @@ import java.util.Optional;
 
 import com.mojang.logging.LogUtils;
 
-public class HazyHectaresPortalBlock extends NetherPortalBlock {
+public class HazyHollowsPortalBlock extends NetherPortalBlock {
 	private static final Logger LOGGER = LogUtils.getLogger();
 
 	public static void portalSpawn(Level world, BlockPos pos) {
-		Optional<HazyHectaresPortalShape> optional = HazyHectaresPortalShape.findEmptyPortalShape(world, pos, Direction.Axis.X);
+		Optional<HazyHollowsPortalShape> optional = HazyHollowsPortalShape.findEmptyPortalShape(world, pos, Direction.Axis.X);
 		if (optional.isPresent()) {
 			optional.get().createPortalBlocks(world);
 		}
 	}
 
-	public HazyHectaresPortalBlock(BlockBehaviour.Properties properties) {
+	public HazyHollowsPortalBlock(BlockBehaviour.Properties properties) {
 		super(properties.noCollission().randomTicks().pushReaction(PushReaction.BLOCK).strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 0).noLootTable());
 	}
 
-	private HazyHectaresTeleporter getTeleporter(ServerLevel level) {
-		return new HazyHectaresTeleporter(level);
+	private HazyHollowsTeleporter getTeleporter(ServerLevel level) {
+		return new HazyHollowsTeleporter(level);
 	}
 
 	@Override
@@ -69,7 +69,7 @@ public class HazyHectaresPortalBlock extends NetherPortalBlock {
 		Direction.Axis direction$axis = p_54929_.getAxis();
 		Direction.Axis direction$axis1 = p_54928_.getValue(AXIS);
 		boolean flag = direction$axis1 != direction$axis && direction$axis.isHorizontal();
-		return !flag && !p_54930_.is(this) && !HazyHectaresPortalShape.findAnyShape(p_374413_, p_54932_, direction$axis1).isComplete()
+		return !flag && !p_54930_.is(this) && !HazyHollowsPortalShape.findAnyShape(p_374413_, p_54932_, direction$axis1).isComplete()
 				? Blocks.AIR.defaultBlockState()
 				: super.updateShape(p_54928_, p_374413_, p_374339_, p_54932_, p_54929_, p_54933_, p_54930_, p_374242_);
 	}
@@ -77,14 +77,14 @@ public class HazyHectaresPortalBlock extends NetherPortalBlock {
 	@Override
 	@Nullable
 	public TeleportTransition getPortalDestination(ServerLevel p_350444_, Entity p_350334_, BlockPos p_350764_) {
-		ResourceKey<Level> resourcekey = p_350444_.dimension() == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("pixel_pals_01:hazy_hectares"))
+		ResourceKey<Level> resourcekey = p_350444_.dimension() == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("pixel_pals_01:hazy_hollows"))
 				? Level.OVERWORLD
-				: ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("pixel_pals_01:hazy_hectares"));
+				: ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("pixel_pals_01:hazy_hollows"));
 		ServerLevel serverlevel = p_350444_.getServer().getLevel(resourcekey);
 		if (serverlevel == null) {
 			return null;
 		} else {
-			boolean flag = serverlevel.dimension() == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("pixel_pals_01:hazy_hectares"));
+			boolean flag = serverlevel.dimension() == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("pixel_pals_01:hazy_hollows"));
 			WorldBorder worldborder = serverlevel.getWorldBorder();
 			double d0 = DimensionType.getTeleportationScale(p_350444_.dimensionType(), serverlevel.dimensionType());
 			BlockPos blockpos = worldborder.clampToBounds(p_350334_.getX() * d0, p_350334_.getY(), p_350334_.getZ() * d0);
@@ -143,7 +143,7 @@ public class HazyHectaresPortalBlock extends NetherPortalBlock {
 		double d4 = 0.5 + p_351020_.z();
 		boolean flag = direction$axis == Direction.Axis.X;
 		Vec3 vec3 = new Vec3((double) blockpos.getX() + (flag ? d2 : d4), (double) blockpos.getY() + d3, (double) blockpos.getZ() + (flag ? d4 : d2));
-		Vec3 vec31 = HazyHectaresPortalShape.findCollisionFreePosition(vec3, p_350955_, p_350578_, entitydimensions);
+		Vec3 vec31 = HazyHollowsPortalShape.findCollisionFreePosition(vec3, p_350955_, p_350578_, entitydimensions);
 		return new TeleportTransition(p_350955_, vec31, Vec3.ZERO, (float) i, 0.0F, Relative.union(Relative.DELTA, Relative.ROTATION), p_379531_);
 	}
 

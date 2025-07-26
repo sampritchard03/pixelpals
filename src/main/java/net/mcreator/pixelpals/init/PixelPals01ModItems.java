@@ -42,7 +42,7 @@ import net.mcreator.pixelpals.item.KakunaSMaskItem;
 import net.mcreator.pixelpals.item.KakunaMaskItem;
 import net.mcreator.pixelpals.item.IvysaurSMaskItem;
 import net.mcreator.pixelpals.item.IvysaurMaskItem;
-import net.mcreator.pixelpals.item.HazyHectaresItem;
+import net.mcreator.pixelpals.item.HazyHollowsItem;
 import net.mcreator.pixelpals.item.DarkraiSMaskItem;
 import net.mcreator.pixelpals.item.DarkraiMaskItem;
 import net.mcreator.pixelpals.item.CharmeleonSMaskItem;
@@ -144,7 +144,8 @@ public class PixelPals01ModItems {
 	public static final DeferredItem<Item> WARTORTLE_S_MASK = register("wartortle_s_mask", WartortleSMaskItem::new);
 	public static final DeferredItem<Item> SQUIRTLE_MASK = register("squirtle_mask", SquirtleMaskItem::new);
 	public static final DeferredItem<Item> SQUIRTLE_S_MASK = register("squirtle_s_mask", SquirtleSMaskItem::new);
-	public static final DeferredItem<Item> HAZY_HECTARES = register("hazy_hectares", HazyHectaresItem::new);
+	public static final DeferredItem<Item> BEACH_PEBBLES = block(PixelPals01ModBlocks.BEACH_PEBBLES, new Item.Properties().stacksTo(99));
+	public static final DeferredItem<Item> HAZY_HOLLOWS = register("hazy_hollows", HazyHollowsItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

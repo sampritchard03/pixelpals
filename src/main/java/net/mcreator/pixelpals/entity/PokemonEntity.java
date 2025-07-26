@@ -24,13 +24,11 @@ import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.TamableAnimal;
-import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntitySpawnReason;
-import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageSource;
@@ -50,7 +48,6 @@ import net.mcreator.pixelpals.procedures.PokemonSadForgiveConditionProcedure;
 import net.mcreator.pixelpals.procedures.PokemonRightClickedOnEntityProcedure;
 import net.mcreator.pixelpals.procedures.PokemonOnEntityTickUpdateProcedure;
 import net.mcreator.pixelpals.procedures.PokemonOnEntityHurtProcedure;
-import net.mcreator.pixelpals.procedures.PokemonModelVisualScaleProcedure;
 import net.mcreator.pixelpals.procedures.PokemonEntityDiesProcedure;
 import net.mcreator.pixelpals.init.PixelPals01ModItems;
 import net.mcreator.pixelpals.init.PixelPals01ModEntities;
@@ -317,7 +314,6 @@ public class PokemonEntity extends TamableAnimal {
 	public void baseTick() {
 		super.baseTick();
 		PokemonOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
-		this.refreshDimensions();
 	}
 
 	@Override
@@ -330,16 +326,6 @@ public class PokemonEntity extends TamableAnimal {
 	@Override
 	public boolean isFood(ItemStack stack) {
 		return Ingredient.of(Blocks.DIAMOND_BLOCK.asItem()).test(stack);
-	}
-
-	@Override
-	public EntityDimensions getDefaultDimensions(Pose pose) {
-		Entity entity = this;
-		Level world = this.level();
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		return super.getDefaultDimensions(pose).scale((float) PokemonModelVisualScaleProcedure.execute(entity));
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {

@@ -9,10 +9,10 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.pixelpals.block.HazyHectaresPortalBlock;
+import net.mcreator.pixelpals.block.HazyHollowsPortalBlock;
 
-public class HazyHectaresItem extends Item {
-	public HazyHectaresItem(Item.Properties properties) {
+public class HazyHollowsItem extends Item {
+	public HazyHollowsItem(Item.Properties properties) {
 		super(properties
 
 				.durability(64));
@@ -32,7 +32,7 @@ public class HazyHectaresItem extends Item {
 			int z = pos.getZ();
 			boolean success = false;
 			if (world.isEmptyBlock(pos) && true) {
-				HazyHectaresPortalBlock.portalSpawn(world, pos);
+				HazyHollowsPortalBlock.portalSpawn(world, pos);
 				itemstack.hurtAndBreak(1, entity, LivingEntity.getSlotForHand(context.getHand()));
 				success = true;
 			}

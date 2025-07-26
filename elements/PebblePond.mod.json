@@ -2,22 +2,30 @@
   "_fv": 79,
   "_type": "biome",
   "definition": {
-    "name": "Brisk Backwoods",
+    "name": "Pebble Pond",
     "groundBlock": {
-      "value": "CUSTOM:ForestFloor"
+      "value": "CUSTOM:BeachPebbles"
     },
     "undergroundBlock": {
       "value": "CUSTOM:Soil"
     },
     "underwaterBlock": {
-      "value": "CUSTOM:Slate"
+      "value": "CUSTOM:BeachPebbles"
     },
     "airColor": {
-      "value": -3682087,
+      "value": -4341790,
       "falpha": 0.0
     },
     "fogColor": {
-      "value": -3682087,
+      "value": -4341790,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -16777012,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -16777012,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -44,7 +52,7 @@
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": 0.5,
+      "min": -1.0,
       "max": 1.0
     },
     "genHumidity": {
@@ -52,8 +60,8 @@
       "max": 1.0
     },
     "genContinentalness": {
-      "min": -0.2,
-      "max": 1.0
+      "min": -1.0,
+      "max": -0.16
     },
     "genErosion": {
       "min": -1.0,
@@ -106,8 +114,8 @@
           "value": "CUSTOM:Lvl1LandPokeGenerator"
         },
         "minGroup": 1,
-        "maxGroup": 2,
-        "weight": 5,
+        "maxGroup": 1,
+        "weight": 2,
         "spawnType": "ambient"
       }
     ]

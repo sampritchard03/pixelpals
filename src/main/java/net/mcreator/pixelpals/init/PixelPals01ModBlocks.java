@@ -28,12 +28,13 @@ import net.mcreator.pixelpals.block.PixelDirtBlock;
 import net.mcreator.pixelpals.block.PineTreeBlock;
 import net.mcreator.pixelpals.block.PeacefulPlainsPortalBlock;
 import net.mcreator.pixelpals.block.OrangeTreeBlock;
-import net.mcreator.pixelpals.block.HazyHectaresPortalBlock;
+import net.mcreator.pixelpals.block.HazyHollowsPortalBlock;
 import net.mcreator.pixelpals.block.ForestFloorBlock;
 import net.mcreator.pixelpals.block.FallenLeavesBlock;
 import net.mcreator.pixelpals.block.BrownShroomBricksBlock;
 import net.mcreator.pixelpals.block.BlobbyTreeBlock;
 import net.mcreator.pixelpals.block.BlobbyLogBlock;
+import net.mcreator.pixelpals.block.BeachPebblesBlock;
 import net.mcreator.pixelpals.PixelPals01Mod;
 
 import java.util.function.Function;
@@ -64,7 +65,8 @@ public class PixelPals01ModBlocks {
 	public static final DeferredBlock<Block> SLATE = register("slate", SlateBlock::new);
 	public static final DeferredBlock<Block> SOIL = register("soil", SoilBlock::new);
 	public static final DeferredBlock<Block> FOREST_FLOOR = register("forest_floor", ForestFloorBlock::new);
-	public static final DeferredBlock<Block> HAZY_HECTARES_PORTAL = register("hazy_hectares_portal", HazyHectaresPortalBlock::new);
+	public static final DeferredBlock<Block> BEACH_PEBBLES = register("beach_pebbles", BeachPebblesBlock::new);
+	public static final DeferredBlock<Block> HAZY_HOLLOWS_PORTAL = register("hazy_hollows_portal", HazyHollowsPortalBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

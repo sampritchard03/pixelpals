@@ -129,7 +129,7 @@ public class PixelPals01ModVariables {
 		public ItemStack p4 = ItemStack.EMPTY;
 		public ItemStack p5 = ItemStack.EMPTY;
 		public ItemStack p6 = ItemStack.EMPTY;
-		public ItemStack pselected = ItemStack.EMPTY;
+		public double pselected = 1.0;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
@@ -164,7 +164,7 @@ public class PixelPals01ModVariables {
 			nbt.put("p4", p4.saveOptional(lookupProvider));
 			nbt.put("p5", p5.saveOptional(lookupProvider));
 			nbt.put("p6", p6.saveOptional(lookupProvider));
-			nbt.put("pselected", pselected.saveOptional(lookupProvider));
+			nbt.putDouble("pselected", pselected);
 			return nbt;
 		}
 
@@ -200,7 +200,7 @@ public class PixelPals01ModVariables {
 			p4 = ItemStack.parseOptional(lookupProvider, nbt.getCompound("p4"));
 			p5 = ItemStack.parseOptional(lookupProvider, nbt.getCompound("p5"));
 			p6 = ItemStack.parseOptional(lookupProvider, nbt.getCompound("p6"));
-			pselected = ItemStack.parseOptional(lookupProvider, nbt.getCompound("pselected"));
+			pselected = nbt.getDouble("pselected");
 		}
 
 		public void syncPlayerVariables(Entity entity) {

@@ -1,6 +1,5 @@
 package net.mcreator.pixelpals.client.renderer;
 
-import net.minecraft.world.level.Level;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.state.HumanoidRenderState;
 import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
@@ -9,7 +8,6 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.model.geom.ModelLayers;
 import net.minecraft.client.model.HumanoidModel;
 
-import net.mcreator.pixelpals.procedures.PokemonModelVisualScaleProcedure;
 import net.mcreator.pixelpals.entity.PokemonEntity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
@@ -18,7 +16,7 @@ public class PokemonRenderer extends HumanoidMobRenderer<PokemonEntity, Humanoid
 	private PokemonEntity entity = null;
 
 	public PokemonRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<HumanoidRenderState>(context.bakeLayer(ModelLayers.PLAYER)), 0f);
+		super(context, new HumanoidModel<HumanoidRenderState>(context.bakeLayer(ModelLayers.PLAYER)), 0.7f);
 		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getEquipmentRenderer()));
 	}
 
@@ -40,12 +38,6 @@ public class PokemonRenderer extends HumanoidMobRenderer<PokemonEntity, Humanoid
 
 	@Override
 	protected void scale(HumanoidRenderState state, PoseStack poseStack) {
-		Level world = entity.level();
-		double x = entity.getX();
-		double y = entity.getY();
-		double z = entity.getZ();
-		float scale = (float) PokemonModelVisualScaleProcedure.execute(entity);
-		poseStack.scale(scale, scale, scale);
 		poseStack.scale(entity.getAgeScale(), entity.getAgeScale(), entity.getAgeScale());
 	}
 }

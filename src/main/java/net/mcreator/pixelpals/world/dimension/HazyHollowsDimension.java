@@ -9,12 +9,12 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.DimensionSpecialEffects;
 
-public class HazyHectaresDimension {
+public class HazyHollowsDimension {
 	@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-	public static class HazyHectaresSpecialEffectsHandler {
+	public static class HazyHollowsSpecialEffectsHandler {
 		@SubscribeEvent
 		public static void registerDimensionSpecialEffects(RegisterDimensionSpecialEffectsEvent event) {
-			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(192f, true, DimensionSpecialEffects.SkyType.OVERWORLD, false, false) {
+			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(192f, true, DimensionSpecialEffects.SkyType.NONE, false, false) {
 				@Override
 				public Vec3 getBrightnessDependentFogColor(Vec3 color, float sunHeight) {
 					return color;
@@ -25,7 +25,7 @@ public class HazyHectaresDimension {
 					return true;
 				}
 			};
-			event.register(ResourceLocation.parse("pixel_pals_01:hazy_hectares"), customEffect);
+			event.register(ResourceLocation.parse("pixel_pals_01:hazy_hollows"), customEffect);
 		}
 	}
 }

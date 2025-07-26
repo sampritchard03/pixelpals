@@ -10,7 +10,7 @@ public class StatusScreenSelectSlot3Procedure {
 			return;
 		{
 			PixelPals01ModVariables.PlayerVariables _vars = entity.getData(PixelPals01ModVariables.PLAYER_VARIABLES);
-			_vars.pselected = entity.getData(PixelPals01ModVariables.PLAYER_VARIABLES).p3.copy();
+			_vars.pselected = 3;
 			_vars.syncPlayerVariables(entity);
 		}
 	}
