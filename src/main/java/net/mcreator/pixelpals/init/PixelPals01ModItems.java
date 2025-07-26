@@ -17,6 +17,8 @@ import net.mcreator.pixelpals.item.WeedleSMaskItem;
 import net.mcreator.pixelpals.item.WeedleMaskItem;
 import net.mcreator.pixelpals.item.VenusaurSMaskItem;
 import net.mcreator.pixelpals.item.VenusaurMaskItem;
+import net.mcreator.pixelpals.item.SquirtleSMaskItem;
+import net.mcreator.pixelpals.item.SquirtleMaskItem;
 import net.mcreator.pixelpals.item.SnorlaxSMaskItem;
 import net.mcreator.pixelpals.item.SnorlaxMaskItem;
 import net.mcreator.pixelpals.item.RattataSMaskItem;
@@ -137,6 +139,8 @@ public class PixelPals01ModItems {
 	public static final DeferredItem<Item> WILD_WOOD = register("wild_wood", WildWoodItem::new);
 	public static final DeferredItem<Item> SOIL = block(PixelPals01ModBlocks.SOIL, new Item.Properties().stacksTo(99));
 	public static final DeferredItem<Item> FOREST_FLOOR = block(PixelPals01ModBlocks.FOREST_FLOOR, new Item.Properties().stacksTo(99));
+	public static final DeferredItem<Item> SQUIRTLE_MASK = register("squirtle_mask", SquirtleMaskItem::new);
+	public static final DeferredItem<Item> SQUIRTLE_S_MASK = register("squirtle_s_mask", SquirtleSMaskItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

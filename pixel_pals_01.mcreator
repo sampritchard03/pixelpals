@@ -32,12 +32,12 @@
       "registry_name": "pixel_grass",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/blockstates/pixel_grass.json",
-          "src/main/java/net/mcreator/pixelpals/block/PixelGrassBlock.java",
+          "src/main/resources/assets/pixel_pals_01/models/item/pixel_grass.json",
           "src/main/resources/data/pixel_pals_01/loot_table/blocks/pixel_grass.json",
           "src/main/resources/assets/pixel_pals_01/models/block/pixel_grass.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/pixel_grass.json",
-          "src/main/resources/assets/pixel_pals_01/items/pixel_grass.json"
+          "src/main/resources/assets/pixel_pals_01/blockstates/pixel_grass.json",
+          "src/main/resources/assets/pixel_pals_01/items/pixel_grass.json",
+          "src/main/java/net/mcreator/pixelpals/block/PixelGrassBlock.java"
         ]
       },
       "path": "~/Blocks"
@@ -50,12 +50,12 @@
       "registry_name": "pixel_dirt",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/items/pixel_dirt.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/pixel_dirt.json",
           "src/main/java/net/mcreator/pixelpals/block/PixelDirtBlock.java",
-          "src/main/resources/assets/pixel_pals_01/models/block/pixel_dirt.json",
           "src/main/resources/assets/pixel_pals_01/models/item/pixel_dirt.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/pixel_dirt.json"
+          "src/main/resources/assets/pixel_pals_01/blockstates/pixel_dirt.json",
+          "src/main/resources/assets/pixel_pals_01/models/block/pixel_dirt.json",
+          "src/main/resources/data/pixel_pals_01/loot_table/blocks/pixel_dirt.json",
+          "src/main/resources/assets/pixel_pals_01/items/pixel_dirt.json"
         ]
       },
       "path": "~/Blocks"
@@ -71,9 +71,9 @@
           "src/main/java/net/mcreator/pixelpals/block/PixelStoneBlock.java",
           "src/main/resources/assets/pixel_pals_01/blockstates/pixel_stone.json",
           "src/main/resources/assets/pixel_pals_01/items/pixel_stone.json",
+          "src/main/resources/assets/pixel_pals_01/models/item/pixel_stone.json",
           "src/main/resources/assets/pixel_pals_01/models/block/pixel_stone.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/pixel_stone.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/pixel_stone.json"
+          "src/main/resources/data/pixel_pals_01/loot_table/blocks/pixel_stone.json"
         ]
       },
       "path": "~/Blocks"
@@ -86,12 +86,12 @@
       "registry_name": "pixel_sand",
       "metadata": {
         "files": [
+          "src/main/resources/data/pixel_pals_01/loot_table/blocks/pixel_sand.json",
+          "src/main/resources/assets/pixel_pals_01/blockstates/pixel_sand.json",
           "src/main/resources/assets/pixel_pals_01/models/item/pixel_sand.json",
           "src/main/resources/assets/pixel_pals_01/models/block/pixel_sand.json",
           "src/main/resources/assets/pixel_pals_01/items/pixel_sand.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/pixel_sand.json",
-          "src/main/java/net/mcreator/pixelpals/block/PixelSandBlock.java",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/pixel_sand.json"
+          "src/main/java/net/mcreator/pixelpals/block/PixelSandBlock.java"
         ]
       },
       "path": "~/Blocks"
@@ -104,12 +104,12 @@
       "registry_name": "blobby_log",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/pixelpals/block/BlobbyLogBlock.java",
           "src/main/resources/assets/pixel_pals_01/models/block/blobby_log.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/blobby_log.json",
+          "src/main/resources/assets/pixel_pals_01/items/blobby_log.json",
           "src/main/resources/assets/pixel_pals_01/blockstates/blobby_log.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/blobby_log.json",
-          "src/main/resources/assets/pixel_pals_01/items/blobby_log.json"
+          "src/main/resources/assets/pixel_pals_01/models/item/blobby_log.json",
+          "src/main/java/net/mcreator/pixelpals/block/BlobbyLogBlock.java",
+          "src/main/resources/data/pixel_pals_01/loot_table/blocks/blobby_log.json"
         ]
       },
       "path": "~/Blocks"
@@ -132,12 +132,12 @@
       "registry_name": "blobby_tree",
       "metadata": {
         "files": [
+          "src/main/resources/data/pixel_pals_01/loot_table/blocks/blobby_tree.json",
+          "src/main/java/net/mcreator/pixelpals/block/BlobbyTreeBlock.java",
           "src/main/resources/assets/pixel_pals_01/blockstates/blobby_tree.json",
           "src/main/resources/assets/pixel_pals_01/items/blobby_tree.json",
-          "src/main/java/net/mcreator/pixelpals/block/BlobbyTreeBlock.java",
-          "src/main/resources/assets/pixel_pals_01/models/item/blobby_tree.json",
           "src/main/resources/assets/pixel_pals_01/models/block/blobby_tree.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/blobby_tree.json"
+          "src/main/resources/assets/pixel_pals_01/models/item/blobby_tree.json"
         ]
       },
       "path": "~/Plants"
@@ -150,8 +150,8 @@
       "registry_name": "blobby_tree_feature",
       "metadata": {
         "files": [
-          "src/main/resources/data/pixel_pals_01/neoforge/biome_modifier/blobby_tree_feature_biome_modifier.json",
           "src/main/resources/data/pixel_pals_01/worldgen/configured_feature/blobby_tree_feature.json",
+          "src/main/resources/data/pixel_pals_01/neoforge/biome_modifier/blobby_tree_feature_biome_modifier.json",
           "src/main/resources/data/pixel_pals_01/worldgen/placed_feature/blobby_tree_feature.json"
         ]
       },
@@ -165,12 +165,12 @@
       "registry_name": "tall_grass",
       "metadata": {
         "files": [
+          "src/main/resources/data/pixel_pals_01/loot_table/blocks/tall_grass.json",
           "src/main/resources/assets/pixel_pals_01/models/item/tall_grass.json",
+          "src/main/resources/assets/pixel_pals_01/blockstates/tall_grass.json",
           "src/main/java/net/mcreator/pixelpals/block/TallGrassBlock.java",
           "src/main/resources/assets/pixel_pals_01/items/tall_grass.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/tall_grass.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/tall_grass.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/tall_grass.json"
+          "src/main/resources/assets/pixel_pals_01/models/block/tall_grass.json"
         ]
       },
       "path": "~/Plants"
@@ -183,9 +183,9 @@
       "registry_name": "tall_grass_feature",
       "metadata": {
         "files": [
+          "src/main/resources/data/pixel_pals_01/worldgen/placed_feature/tall_grass_feature.json",
           "src/main/resources/data/pixel_pals_01/neoforge/biome_modifier/tall_grass_feature_biome_modifier.json",
-          "src/main/resources/data/pixel_pals_01/worldgen/configured_feature/tall_grass_feature.json",
-          "src/main/resources/data/pixel_pals_01/worldgen/placed_feature/tall_grass_feature.json"
+          "src/main/resources/data/pixel_pals_01/worldgen/configured_feature/tall_grass_feature.json"
         ]
       },
       "path": "~/Features"
@@ -211,9 +211,9 @@
       "registry_name": "pidgey_mask",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/models/item/pidgey_mask.json",
+          "src/main/resources/assets/pixel_pals_01/items/pidgey_mask.json",
           "src/main/java/net/mcreator/pixelpals/item/PidgeyMaskItem.java",
-          "src/main/resources/assets/pixel_pals_01/items/pidgey_mask.json"
+          "src/main/resources/assets/pixel_pals_01/models/item/pidgey_mask.json"
         ]
       },
       "path": "~/Masks"
@@ -227,8 +227,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/pixelpals/client/renderer/PokemonRenderer.java",
-          "src/main/java/net/mcreator/pixelpals/entity/PokemonEntity.java",
-          "src/main/resources/assets/pixel_pals_01/items/pokemon_spawn_egg.json"
+          "src/main/resources/assets/pixel_pals_01/items/pokemon_spawn_egg.json",
+          "src/main/java/net/mcreator/pixelpals/entity/PokemonEntity.java"
         ]
       },
       "path": "~/Entities"
@@ -241,9 +241,9 @@
       "registry_name": "armaldo_mask",
       "metadata": {
         "files": [
+          "src/main/resources/assets/pixel_pals_01/models/item/armaldo_mask.json",
           "src/main/resources/assets/pixel_pals_01/items/armaldo_mask.json",
-          "src/main/java/net/mcreator/pixelpals/item/ArmaldoMaskItem.java",
-          "src/main/resources/assets/pixel_pals_01/models/item/armaldo_mask.json"
+          "src/main/java/net/mcreator/pixelpals/item/ArmaldoMaskItem.java"
         ]
       },
       "path": "~/Masks"
@@ -324,9 +324,9 @@
       "registry_name": "machamp_mask",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/models/item/machamp_mask.json",
+          "src/main/resources/assets/pixel_pals_01/items/machamp_mask.json",
           "src/main/java/net/mcreator/pixelpals/item/MachampMaskItem.java",
-          "src/main/resources/assets/pixel_pals_01/items/machamp_mask.json"
+          "src/main/resources/assets/pixel_pals_01/models/item/machamp_mask.json"
         ]
       },
       "path": "~/Masks"
@@ -339,9 +339,9 @@
       "registry_name": "venusaur_mask",
       "metadata": {
         "files": [
+          "src/main/resources/assets/pixel_pals_01/models/item/venusaur_mask.json",
           "src/main/java/net/mcreator/pixelpals/item/VenusaurMaskItem.java",
-          "src/main/resources/assets/pixel_pals_01/items/venusaur_mask.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/venusaur_mask.json"
+          "src/main/resources/assets/pixel_pals_01/items/venusaur_mask.json"
         ]
       },
       "path": "~/Masks"
@@ -354,9 +354,9 @@
       "registry_name": "mr_mime_mask",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/pixelpals/item/MrMimeMaskItem.java",
           "src/main/resources/assets/pixel_pals_01/models/item/mr_mime_mask.json",
-          "src/main/resources/assets/pixel_pals_01/items/mr_mime_mask.json",
-          "src/main/java/net/mcreator/pixelpals/item/MrMimeMaskItem.java"
+          "src/main/resources/assets/pixel_pals_01/items/mr_mime_mask.json"
         ]
       },
       "path": "~/Masks"
@@ -370,8 +370,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/pixel_pals_01/items/darkrai_mask.json",
-          "src/main/java/net/mcreator/pixelpals/item/DarkraiMaskItem.java",
-          "src/main/resources/assets/pixel_pals_01/models/item/darkrai_mask.json"
+          "src/main/resources/assets/pixel_pals_01/models/item/darkrai_mask.json",
+          "src/main/java/net/mcreator/pixelpals/item/DarkraiMaskItem.java"
         ]
       },
       "path": "~/Masks"
@@ -397,12 +397,12 @@
       "registry_name": "fallen_leaves",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/pixelpals/block/FallenLeavesBlock.java",
-          "src/main/resources/assets/pixel_pals_01/models/item/fallen_leaves.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/fallen_leaves.json",
-          "src/main/resources/assets/pixel_pals_01/items/fallen_leaves.json",
+          "src/main/resources/assets/pixel_pals_01/blockstates/fallen_leaves.json",
           "src/main/resources/data/pixel_pals_01/loot_table/blocks/fallen_leaves.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/fallen_leaves.json"
+          "src/main/resources/assets/pixel_pals_01/models/item/fallen_leaves.json",
+          "src/main/java/net/mcreator/pixelpals/block/FallenLeavesBlock.java",
+          "src/main/resources/assets/pixel_pals_01/items/fallen_leaves.json",
+          "src/main/resources/assets/pixel_pals_01/models/block/fallen_leaves.json"
         ]
       },
       "path": "~/Blocks"
@@ -415,12 +415,12 @@
       "registry_name": "yellow_tree",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/items/yellow_tree.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/yellow_tree.json",
           "src/main/resources/assets/pixel_pals_01/models/block/yellow_tree.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/yellow_tree.json",
           "src/main/resources/data/pixel_pals_01/loot_table/blocks/yellow_tree.json",
-          "src/main/java/net/mcreator/pixelpals/block/YellowTreeBlock.java"
+          "src/main/resources/assets/pixel_pals_01/blockstates/yellow_tree.json",
+          "src/main/java/net/mcreator/pixelpals/block/YellowTreeBlock.java",
+          "src/main/resources/assets/pixel_pals_01/items/yellow_tree.json",
+          "src/main/resources/assets/pixel_pals_01/models/item/yellow_tree.json"
         ]
       },
       "path": "~/Plants"
@@ -433,12 +433,12 @@
       "registry_name": "orange_tree",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/items/orange_tree.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/orange_tree.json",
           "src/main/resources/assets/pixel_pals_01/models/block/orange_tree.json",
+          "src/main/resources/assets/pixel_pals_01/models/item/orange_tree.json",
           "src/main/java/net/mcreator/pixelpals/block/OrangeTreeBlock.java",
-          "src/main/resources/assets/pixel_pals_01/blockstates/orange_tree.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/orange_tree.json"
+          "src/main/resources/assets/pixel_pals_01/items/orange_tree.json",
+          "src/main/resources/data/pixel_pals_01/loot_table/blocks/orange_tree.json",
+          "src/main/resources/assets/pixel_pals_01/blockstates/orange_tree.json"
         ]
       },
       "path": "~/Plants"
@@ -451,9 +451,9 @@
       "registry_name": "yellow_tree_feature",
       "metadata": {
         "files": [
-          "src/main/resources/data/pixel_pals_01/worldgen/configured_feature/yellow_tree_feature.json",
           "src/main/resources/data/pixel_pals_01/worldgen/placed_feature/yellow_tree_feature.json",
-          "src/main/resources/data/pixel_pals_01/neoforge/biome_modifier/yellow_tree_feature_biome_modifier.json"
+          "src/main/resources/data/pixel_pals_01/neoforge/biome_modifier/yellow_tree_feature_biome_modifier.json",
+          "src/main/resources/data/pixel_pals_01/worldgen/configured_feature/yellow_tree_feature.json"
         ]
       },
       "path": "~/Features"
@@ -467,8 +467,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/pixel_pals_01/neoforge/biome_modifier/orange_tree_feature_biome_modifier.json",
-          "src/main/resources/data/pixel_pals_01/worldgen/configured_feature/orange_tree_feature.json",
-          "src/main/resources/data/pixel_pals_01/worldgen/placed_feature/orange_tree_feature.json"
+          "src/main/resources/data/pixel_pals_01/worldgen/placed_feature/orange_tree_feature.json",
+          "src/main/resources/data/pixel_pals_01/worldgen/configured_feature/orange_tree_feature.json"
         ]
       },
       "path": "~/Features"
@@ -481,9 +481,9 @@
       "registry_name": "snorlax_mask",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/pixelpals/item/SnorlaxMaskItem.java",
+          "src/main/resources/assets/pixel_pals_01/models/item/snorlax_mask.json",
           "src/main/resources/assets/pixel_pals_01/items/snorlax_mask.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/snorlax_mask.json"
+          "src/main/java/net/mcreator/pixelpals/item/SnorlaxMaskItem.java"
         ]
       },
       "path": "~/Masks"
@@ -496,8 +496,8 @@
       "registry_name": "krabby_mask",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/models/item/krabby_mask.json",
           "src/main/resources/assets/pixel_pals_01/items/krabby_mask.json",
+          "src/main/resources/assets/pixel_pals_01/models/item/krabby_mask.json",
           "src/main/java/net/mcreator/pixelpals/item/KrabbyMaskItem.java"
         ]
       },
@@ -615,8 +615,8 @@
       "registry_name": "pokeball",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/models/item/pokeball.json",
           "src/main/java/net/mcreator/pixelpals/item/PokeballItem.java",
+          "src/main/resources/assets/pixel_pals_01/models/item/pokeball.json",
           "src/main/resources/assets/pixel_pals_01/items/pokeball.json"
         ]
       },
@@ -692,8 +692,8 @@
       "registry_name": "pkhex_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/pixelpals/client/gui/PKHEXGuiScreen.java",
-          "src/main/java/net/mcreator/pixelpals/world/inventory/PKHEXGuiMenu.java"
+          "src/main/java/net/mcreator/pixelpals/world/inventory/PKHEXGuiMenu.java",
+          "src/main/java/net/mcreator/pixelpals/client/gui/PKHEXGuiScreen.java"
         ]
       },
       "path": "~/GUIs"
@@ -707,8 +707,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/pixel_pals_01/models/item/pkhex.json",
-          "src/main/resources/assets/pixel_pals_01/items/pkhex.json",
-          "src/main/java/net/mcreator/pixelpals/item/PKHEXItem.java"
+          "src/main/java/net/mcreator/pixelpals/item/PKHEXItem.java",
+          "src/main/resources/assets/pixel_pals_01/items/pkhex.json"
         ]
       },
       "path": "~/Items"
@@ -920,8 +920,8 @@
       "registry_name": "pokemon_tame_fail_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/pixelpals/world/inventory/PokemonTameFailGuiMenu.java",
-          "src/main/java/net/mcreator/pixelpals/client/gui/PokemonTameFailGuiScreen.java"
+          "src/main/java/net/mcreator/pixelpals/client/gui/PokemonTameFailGuiScreen.java",
+          "src/main/java/net/mcreator/pixelpals/world/inventory/PokemonTameFailGuiMenu.java"
         ]
       },
       "path": "~/GUIs"
@@ -973,12 +973,12 @@
       "registry_name": "toad_house_wall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/blockstates/toad_house_wall.json",
           "src/main/java/net/mcreator/pixelpals/block/ToadHouseWallBlock.java",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/toad_house_wall.json",
+          "src/main/resources/assets/pixel_pals_01/blockstates/toad_house_wall.json",
+          "src/main/resources/assets/pixel_pals_01/items/toad_house_wall.json",
           "src/main/resources/assets/pixel_pals_01/models/block/toad_house_wall.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/toad_house_wall.json",
-          "src/main/resources/assets/pixel_pals_01/items/toad_house_wall.json"
+          "src/main/resources/data/pixel_pals_01/loot_table/blocks/toad_house_wall.json",
+          "src/main/resources/assets/pixel_pals_01/models/item/toad_house_wall.json"
         ]
       },
       "path": "~/Blocks"
@@ -991,12 +991,12 @@
       "registry_name": "shroom_cement",
       "metadata": {
         "files": [
+          "src/main/resources/assets/pixel_pals_01/blockstates/shroom_cement.json",
           "src/main/java/net/mcreator/pixelpals/block/ShroomCementBlock.java",
-          "src/main/resources/assets/pixel_pals_01/models/item/shroom_cement.json",
           "src/main/resources/assets/pixel_pals_01/models/block/shroom_cement.json",
           "src/main/resources/data/pixel_pals_01/loot_table/blocks/shroom_cement.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/shroom_cement.json",
-          "src/main/resources/assets/pixel_pals_01/items/shroom_cement.json"
+          "src/main/resources/assets/pixel_pals_01/items/shroom_cement.json",
+          "src/main/resources/assets/pixel_pals_01/models/item/shroom_cement.json"
         ]
       },
       "path": "~/Blocks"
@@ -1009,12 +1009,12 @@
       "registry_name": "brown_shroom_bricks",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/pixelpals/block/BrownShroomBricksBlock.java",
           "src/main/resources/assets/pixel_pals_01/models/item/brown_shroom_bricks.json",
-          "src/main/resources/assets/pixel_pals_01/items/brown_shroom_bricks.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/brown_shroom_bricks.json",
           "src/main/resources/assets/pixel_pals_01/models/block/brown_shroom_bricks.json",
           "src/main/resources/data/pixel_pals_01/loot_table/blocks/brown_shroom_bricks.json",
-          "src/main/java/net/mcreator/pixelpals/block/BrownShroomBricksBlock.java"
+          "src/main/resources/assets/pixel_pals_01/blockstates/brown_shroom_bricks.json",
+          "src/main/resources/assets/pixel_pals_01/items/brown_shroom_bricks.json"
         ]
       },
       "path": "~/Blocks"
@@ -1027,11 +1027,11 @@
       "registry_name": "white_shroom_bricks",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/pixelpals/block/WhiteShroomBricksBlock.java",
+          "src/main/resources/assets/pixel_pals_01/items/white_shroom_bricks.json",
+          "src/main/resources/assets/pixel_pals_01/blockstates/white_shroom_bricks.json",
           "src/main/resources/assets/pixel_pals_01/models/item/white_shroom_bricks.json",
           "src/main/resources/assets/pixel_pals_01/models/block/white_shroom_bricks.json",
-          "src/main/resources/assets/pixel_pals_01/items/white_shroom_bricks.json",
-          "src/main/java/net/mcreator/pixelpals/block/WhiteShroomBricksBlock.java",
-          "src/main/resources/assets/pixel_pals_01/blockstates/white_shroom_bricks.json",
           "src/main/resources/data/pixel_pals_01/loot_table/blocks/white_shroom_bricks.json"
         ]
       },
@@ -1045,12 +1045,12 @@
       "registry_name": "toad_house_doorway",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/models/block/toad_house_doorway.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/toad_house_doorway.json",
+          "src/main/resources/assets/pixel_pals_01/items/toad_house_doorway.json",
           "src/main/java/net/mcreator/pixelpals/block/ToadHouseDoorwayBlock.java",
           "src/main/resources/assets/pixel_pals_01/models/item/toad_house_doorway.json",
-          "src/main/resources/assets/pixel_pals_01/items/toad_house_doorway.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/toad_house_doorway.json"
+          "src/main/resources/assets/pixel_pals_01/blockstates/toad_house_doorway.json",
+          "src/main/resources/assets/pixel_pals_01/models/block/toad_house_doorway.json",
+          "src/main/resources/data/pixel_pals_01/loot_table/blocks/toad_house_doorway.json"
         ]
       },
       "path": "~/Blocks"
@@ -1063,12 +1063,12 @@
       "registry_name": "red_shroom_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/models/block/red_shroom_block.json",
+          "src/main/resources/data/pixel_pals_01/loot_table/blocks/red_shroom_block.json",
           "src/main/resources/assets/pixel_pals_01/models/item/red_shroom_block.json",
           "src/main/resources/assets/pixel_pals_01/blockstates/red_shroom_block.json",
-          "src/main/java/net/mcreator/pixelpals/block/RedShroomBlockBlock.java",
           "src/main/resources/assets/pixel_pals_01/items/red_shroom_block.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/red_shroom_block.json"
+          "src/main/java/net/mcreator/pixelpals/block/RedShroomBlockBlock.java",
+          "src/main/resources/assets/pixel_pals_01/models/block/red_shroom_block.json"
         ]
       },
       "path": "~/Blocks"
@@ -1081,11 +1081,11 @@
       "registry_name": "red_toad_house",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/pixelpals/block/RedToadHouseBlock.java",
+          "src/main/resources/data/pixel_pals_01/loot_table/blocks/red_toad_house.json",
+          "src/main/resources/assets/pixel_pals_01/models/item/red_toad_house.json",
           "src/main/resources/assets/pixel_pals_01/blockstates/red_toad_house.json",
           "src/main/resources/assets/pixel_pals_01/models/block/red_toad_house.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/red_toad_house.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/red_toad_house.json",
-          "src/main/java/net/mcreator/pixelpals/block/RedToadHouseBlock.java",
           "src/main/resources/assets/pixel_pals_01/items/red_toad_house.json"
         ]
       },
@@ -1100,9 +1100,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/pixel_pals_01/neoforge/biome_modifier/lvl_1_land_poke_generator_biome_modifier.json",
-          "src/main/java/net/mcreator/pixelpals/client/renderer/Lvl1LandPokeGeneratorRenderer.java",
           "src/main/java/net/mcreator/pixelpals/entity/Lvl1LandPokeGeneratorEntity.java",
-          "src/main/resources/assets/pixel_pals_01/items/lvl_1_land_poke_generator_spawn_egg.json"
+          "src/main/resources/assets/pixel_pals_01/items/lvl_1_land_poke_generator_spawn_egg.json",
+          "src/main/java/net/mcreator/pixelpals/client/renderer/Lvl1LandPokeGeneratorRenderer.java"
         ]
       },
       "path": "~/Entities"
@@ -1183,8 +1183,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/pixel_pals_01/models/item/armaldo_s_mask.json",
-          "src/main/java/net/mcreator/pixelpals/item/ArmaldoSMaskItem.java",
-          "src/main/resources/assets/pixel_pals_01/items/armaldo_s_mask.json"
+          "src/main/resources/assets/pixel_pals_01/items/armaldo_s_mask.json",
+          "src/main/java/net/mcreator/pixelpals/item/ArmaldoSMaskItem.java"
         ]
       },
       "path": "~/Masks"
@@ -1197,9 +1197,9 @@
       "registry_name": "blastoise_s_mask",
       "metadata": {
         "files": [
+          "src/main/resources/assets/pixel_pals_01/items/blastoise_s_mask.json",
           "src/main/resources/assets/pixel_pals_01/models/item/blastoise_s_mask.json",
-          "src/main/java/net/mcreator/pixelpals/item/BlastoiseSMaskItem.java",
-          "src/main/resources/assets/pixel_pals_01/items/blastoise_s_mask.json"
+          "src/main/java/net/mcreator/pixelpals/item/BlastoiseSMaskItem.java"
         ]
       },
       "path": "~/Masks"
@@ -1212,9 +1212,9 @@
       "registry_name": "charmeleon_s_mask",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/models/item/charmeleon_s_mask.json",
           "src/main/resources/assets/pixel_pals_01/items/charmeleon_s_mask.json",
-          "src/main/java/net/mcreator/pixelpals/item/CharmeleonSMaskItem.java"
+          "src/main/java/net/mcreator/pixelpals/item/CharmeleonSMaskItem.java",
+          "src/main/resources/assets/pixel_pals_01/models/item/charmeleon_s_mask.json"
         ]
       },
       "path": "~/Masks"
@@ -1227,9 +1227,9 @@
       "registry_name": "darkrai_s_mask",
       "metadata": {
         "files": [
+          "src/main/resources/assets/pixel_pals_01/items/darkrai_s_mask.json",
           "src/main/resources/assets/pixel_pals_01/models/item/darkrai_s_mask.json",
-          "src/main/java/net/mcreator/pixelpals/item/DarkraiSMaskItem.java",
-          "src/main/resources/assets/pixel_pals_01/items/darkrai_s_mask.json"
+          "src/main/java/net/mcreator/pixelpals/item/DarkraiSMaskItem.java"
         ]
       },
       "path": "~/Masks"
@@ -1242,9 +1242,9 @@
       "registry_name": "pidgey_s_mask",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/pixelpals/item/PidgeySMaskItem.java",
           "src/main/resources/assets/pixel_pals_01/models/item/pidgey_s_mask.json",
-          "src/main/resources/assets/pixel_pals_01/items/pidgey_s_mask.json"
+          "src/main/resources/assets/pixel_pals_01/items/pidgey_s_mask.json",
+          "src/main/java/net/mcreator/pixelpals/item/PidgeySMaskItem.java"
         ]
       },
       "path": "~/Masks"
@@ -1257,8 +1257,8 @@
       "registry_name": "krabby_s_mask",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/pixelpals/item/KrabbySMaskItem.java",
           "src/main/resources/assets/pixel_pals_01/items/krabby_s_mask.json",
+          "src/main/java/net/mcreator/pixelpals/item/KrabbySMaskItem.java",
           "src/main/resources/assets/pixel_pals_01/models/item/krabby_s_mask.json"
         ]
       },
@@ -1272,8 +1272,8 @@
       "registry_name": "machamp_s_mask",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/pixelpals/item/MachampSMaskItem.java",
           "src/main/resources/assets/pixel_pals_01/models/item/machamp_s_mask.json",
+          "src/main/java/net/mcreator/pixelpals/item/MachampSMaskItem.java",
           "src/main/resources/assets/pixel_pals_01/items/machamp_s_mask.json"
         ]
       },
@@ -1287,9 +1287,9 @@
       "registry_name": "mr_mime_s_mask",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/pixelpals/item/MrMimeSMaskItem.java",
+          "src/main/resources/assets/pixel_pals_01/items/mr_mime_s_mask.json",
           "src/main/resources/assets/pixel_pals_01/models/item/mr_mime_s_mask.json",
-          "src/main/resources/assets/pixel_pals_01/items/mr_mime_s_mask.json"
+          "src/main/java/net/mcreator/pixelpals/item/MrMimeSMaskItem.java"
         ]
       },
       "path": "~/Masks"
@@ -1302,9 +1302,9 @@
       "registry_name": "rattata_s_mask",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/pixelpals/item/RattataSMaskItem.java",
           "src/main/resources/assets/pixel_pals_01/models/item/rattata_s_mask.json",
-          "src/main/resources/assets/pixel_pals_01/items/rattata_s_mask.json"
+          "src/main/resources/assets/pixel_pals_01/items/rattata_s_mask.json",
+          "src/main/java/net/mcreator/pixelpals/item/RattataSMaskItem.java"
         ]
       },
       "path": "~/Masks"
@@ -1317,9 +1317,9 @@
       "registry_name": "snorlax_s_mask",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/items/snorlax_s_mask.json",
+          "src/main/resources/assets/pixel_pals_01/models/item/snorlax_s_mask.json",
           "src/main/java/net/mcreator/pixelpals/item/SnorlaxSMaskItem.java",
-          "src/main/resources/assets/pixel_pals_01/models/item/snorlax_s_mask.json"
+          "src/main/resources/assets/pixel_pals_01/items/snorlax_s_mask.json"
         ]
       },
       "path": "~/Masks"
@@ -1349,10 +1349,10 @@
         "files": [
           "src/main/java/net/mcreator/pixelpals/block/ToadHouseDoorBlock.java",
           "src/main/resources/assets/pixel_pals_01/blockstates/toad_house_door.json",
-          "src/main/resources/assets/pixel_pals_01/items/toad_house_door.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/toad_house_door.json",
           "src/main/resources/assets/pixel_pals_01/models/item/toad_house_door.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/toad_house_door.json"
+          "src/main/resources/assets/pixel_pals_01/models/block/toad_house_door.json",
+          "src/main/resources/data/pixel_pals_01/loot_table/blocks/toad_house_door.json",
+          "src/main/resources/assets/pixel_pals_01/items/toad_house_door.json"
         ]
       },
       "path": "~/Blocks"
@@ -1365,12 +1365,12 @@
       "registry_name": "toad_house_door_open",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/blockstates/toad_house_door_open.json",
+          "src/main/java/net/mcreator/pixelpals/block/ToadHouseDoorOpenBlock.java",
           "src/main/resources/assets/pixel_pals_01/models/block/toad_house_door_open.json",
           "src/main/resources/assets/pixel_pals_01/models/item/toad_house_door_open.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/toad_house_door_open.json",
-          "src/main/java/net/mcreator/pixelpals/block/ToadHouseDoorOpenBlock.java",
-          "src/main/resources/assets/pixel_pals_01/items/toad_house_door_open.json"
+          "src/main/resources/assets/pixel_pals_01/blockstates/toad_house_door_open.json",
+          "src/main/resources/assets/pixel_pals_01/items/toad_house_door_open.json",
+          "src/main/resources/data/pixel_pals_01/loot_table/blocks/toad_house_door_open.json"
         ]
       },
       "path": "~/Blocks"
@@ -1508,8 +1508,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/pixelpals/client/gui/StatusScreenGuiScreen.java",
-          "src/main/java/net/mcreator/pixelpals/world/inventory/StatusScreenGuiMenu.java",
-          "src/main/java/net/mcreator/pixelpals/network/StatusScreenGuiButtonMessage.java"
+          "src/main/java/net/mcreator/pixelpals/network/StatusScreenGuiButtonMessage.java",
+          "src/main/java/net/mcreator/pixelpals/world/inventory/StatusScreenGuiMenu.java"
         ]
       },
       "path": "~/GUIs"
@@ -1731,9 +1731,9 @@
       "registry_name": "bulbasaur_mask",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/pixelpals/item/BulbasaurMaskItem.java",
           "src/main/resources/assets/pixel_pals_01/models/item/bulbasaur_mask.json",
-          "src/main/resources/assets/pixel_pals_01/items/bulbasaur_mask.json"
+          "src/main/resources/assets/pixel_pals_01/items/bulbasaur_mask.json",
+          "src/main/java/net/mcreator/pixelpals/item/BulbasaurMaskItem.java"
         ]
       },
       "path": "~/Masks"
@@ -1746,9 +1746,9 @@
       "registry_name": "bulbasaur_s_mask",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/pixelpals/item/BulbasaurSMaskItem.java",
+          "src/main/resources/assets/pixel_pals_01/models/item/bulbasaur_s_mask.json",
           "src/main/resources/assets/pixel_pals_01/items/bulbasaur_s_mask.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/bulbasaur_s_mask.json"
+          "src/main/java/net/mcreator/pixelpals/item/BulbasaurSMaskItem.java"
         ]
       },
       "path": "~/Masks"
@@ -1856,9 +1856,9 @@
       "registry_name": "ivysaur_mask",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/models/item/ivysaur_mask.json",
+          "src/main/java/net/mcreator/pixelpals/item/IvysaurMaskItem.java",
           "src/main/resources/assets/pixel_pals_01/items/ivysaur_mask.json",
-          "src/main/java/net/mcreator/pixelpals/item/IvysaurMaskItem.java"
+          "src/main/resources/assets/pixel_pals_01/models/item/ivysaur_mask.json"
         ]
       },
       "path": "~/Masks"
@@ -1871,8 +1871,8 @@
       "registry_name": "ivysaur_s_mask",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/pixelpals/item/IvysaurSMaskItem.java",
           "src/main/resources/assets/pixel_pals_01/models/item/ivysaur_s_mask.json",
+          "src/main/java/net/mcreator/pixelpals/item/IvysaurSMaskItem.java",
           "src/main/resources/assets/pixel_pals_01/items/ivysaur_s_mask.json"
         ]
       },
@@ -1886,9 +1886,9 @@
       "registry_name": "beedrill_mask",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/models/item/beedrill_mask.json",
+          "src/main/java/net/mcreator/pixelpals/item/BeedrillMaskItem.java",
           "src/main/resources/assets/pixel_pals_01/items/beedrill_mask.json",
-          "src/main/java/net/mcreator/pixelpals/item/BeedrillMaskItem.java"
+          "src/main/resources/assets/pixel_pals_01/models/item/beedrill_mask.json"
         ]
       },
       "path": "~/Masks"
@@ -1901,9 +1901,9 @@
       "registry_name": "beedrill_s_mask",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/models/item/beedrill_s_mask.json",
+          "src/main/resources/assets/pixel_pals_01/items/beedrill_s_mask.json",
           "src/main/java/net/mcreator/pixelpals/item/BeedrillSMaskItem.java",
-          "src/main/resources/assets/pixel_pals_01/items/beedrill_s_mask.json"
+          "src/main/resources/assets/pixel_pals_01/models/item/beedrill_s_mask.json"
         ]
       },
       "path": "~/Masks"
@@ -1916,8 +1916,8 @@
       "registry_name": "butterfree_mask",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/models/item/butterfree_mask.json",
           "src/main/java/net/mcreator/pixelpals/item/ButterfreeMaskItem.java",
+          "src/main/resources/assets/pixel_pals_01/models/item/butterfree_mask.json",
           "src/main/resources/assets/pixel_pals_01/items/butterfree_mask.json"
         ]
       },
@@ -1946,8 +1946,8 @@
       "registry_name": "weedle_mask",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/items/weedle_mask.json",
           "src/main/resources/assets/pixel_pals_01/models/item/weedle_mask.json",
+          "src/main/resources/assets/pixel_pals_01/items/weedle_mask.json",
           "src/main/java/net/mcreator/pixelpals/item/WeedleMaskItem.java"
         ]
       },
@@ -1961,8 +1961,8 @@
       "registry_name": "weedle_s_mask",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/pixelpals/item/WeedleSMaskItem.java",
           "src/main/resources/assets/pixel_pals_01/models/item/weedle_s_mask.json",
+          "src/main/java/net/mcreator/pixelpals/item/WeedleSMaskItem.java",
           "src/main/resources/assets/pixel_pals_01/items/weedle_s_mask.json"
         ]
       },
@@ -1976,8 +1976,8 @@
       "registry_name": "charmander_mask",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/items/charmander_mask.json",
           "src/main/resources/assets/pixel_pals_01/models/item/charmander_mask.json",
+          "src/main/resources/assets/pixel_pals_01/items/charmander_mask.json",
           "src/main/java/net/mcreator/pixelpals/item/CharmanderMaskItem.java"
         ]
       },
@@ -2022,8 +2022,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/pixelpals/item/CharizardSMaskItem.java",
-          "src/main/resources/assets/pixel_pals_01/items/charizard_s_mask.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/charizard_s_mask.json"
+          "src/main/resources/assets/pixel_pals_01/models/item/charizard_s_mask.json",
+          "src/main/resources/assets/pixel_pals_01/items/charizard_s_mask.json"
         ]
       },
       "path": "~/Masks"
@@ -2036,9 +2036,9 @@
       "registry_name": "caterpie_mask",
       "metadata": {
         "files": [
+          "src/main/resources/assets/pixel_pals_01/models/item/caterpie_mask.json",
           "src/main/java/net/mcreator/pixelpals/item/CaterpieMaskItem.java",
-          "src/main/resources/assets/pixel_pals_01/items/caterpie_mask.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/caterpie_mask.json"
+          "src/main/resources/assets/pixel_pals_01/items/caterpie_mask.json"
         ]
       },
       "path": "~/Masks"
@@ -2051,9 +2051,9 @@
       "registry_name": "caterpie_s_mask",
       "metadata": {
         "files": [
+          "src/main/resources/assets/pixel_pals_01/items/caterpie_s_mask.json",
           "src/main/resources/assets/pixel_pals_01/models/item/caterpie_s_mask.json",
-          "src/main/java/net/mcreator/pixelpals/item/CaterpieSMaskItem.java",
-          "src/main/resources/assets/pixel_pals_01/items/caterpie_s_mask.json"
+          "src/main/java/net/mcreator/pixelpals/item/CaterpieSMaskItem.java"
         ]
       },
       "path": "~/Masks"
@@ -2067,8 +2067,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/pixel_pals_01/models/item/metapod_mask.json",
-          "src/main/resources/assets/pixel_pals_01/items/metapod_mask.json",
-          "src/main/java/net/mcreator/pixelpals/item/MetapodMaskItem.java"
+          "src/main/java/net/mcreator/pixelpals/item/MetapodMaskItem.java",
+          "src/main/resources/assets/pixel_pals_01/items/metapod_mask.json"
         ]
       },
       "path": "~/Masks"
@@ -2082,8 +2082,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/pixel_pals_01/models/item/metapod_s_mask.json",
-          "src/main/resources/assets/pixel_pals_01/items/metapod_s_mask.json",
-          "src/main/java/net/mcreator/pixelpals/item/MetapodSMaskItem.java"
+          "src/main/java/net/mcreator/pixelpals/item/MetapodSMaskItem.java",
+          "src/main/resources/assets/pixel_pals_01/items/metapod_s_mask.json"
         ]
       },
       "path": "~/Masks"
@@ -2096,9 +2096,9 @@
       "registry_name": "kakuna_mask",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/models/item/kakuna_mask.json",
+          "src/main/resources/assets/pixel_pals_01/items/kakuna_mask.json",
           "src/main/java/net/mcreator/pixelpals/item/KakunaMaskItem.java",
-          "src/main/resources/assets/pixel_pals_01/items/kakuna_mask.json"
+          "src/main/resources/assets/pixel_pals_01/models/item/kakuna_mask.json"
         ]
       },
       "path": "~/Masks"
@@ -2111,8 +2111,8 @@
       "registry_name": "kakuna_s_mask",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/items/kakuna_s_mask.json",
           "src/main/resources/assets/pixel_pals_01/models/item/kakuna_s_mask.json",
+          "src/main/resources/assets/pixel_pals_01/items/kakuna_s_mask.json",
           "src/main/java/net/mcreator/pixelpals/item/KakunaSMaskItem.java"
         ]
       },
@@ -2126,12 +2126,12 @@
       "registry_name": "pine_tree",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pixel_pals_01/models/item/pine_tree.json",
-          "src/main/java/net/mcreator/pixelpals/block/PineTreeBlock.java",
-          "src/main/resources/assets/pixel_pals_01/items/pine_tree.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/pine_tree.json",
           "src/main/resources/data/pixel_pals_01/loot_table/blocks/pine_tree.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/pine_tree.json"
+          "src/main/java/net/mcreator/pixelpals/block/PineTreeBlock.java",
+          "src/main/resources/assets/pixel_pals_01/blockstates/pine_tree.json",
+          "src/main/resources/assets/pixel_pals_01/models/item/pine_tree.json",
+          "src/main/resources/assets/pixel_pals_01/models/block/pine_tree.json",
+          "src/main/resources/assets/pixel_pals_01/items/pine_tree.json"
         ]
       },
       "path": "~/Plants"
@@ -2162,18 +2162,18 @@
       "registry_name": "wild_wood",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/pixelpals/world/teleporter/WildWoodPortalShape.java",
-          "src/main/resources/assets/pixel_pals_01/models/item/wild_wood.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/wild_wood_portal_ns.json",
-          "src/main/resources/data/pixel_pals_01/dimension_type/wild_wood.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/wild_wood_portal.json",
-          "src/main/resources/assets/pixel_pals_01/items/wild_wood.json",
-          "src/main/java/net/mcreator/pixelpals/block/WildWoodPortalBlock.java",
-          "src/main/java/net/mcreator/pixelpals/world/dimension/WildWoodDimension.java",
-          "src/main/java/net/mcreator/pixelpals/item/WildWoodItem.java",
           "src/main/resources/assets/pixel_pals_01/models/block/wild_wood_portal_ew.json",
+          "src/main/java/net/mcreator/pixelpals/world/teleporter/WildWoodPortalShape.java",
+          "src/main/java/net/mcreator/pixelpals/world/dimension/WildWoodDimension.java",
+          "src/main/java/net/mcreator/pixelpals/block/WildWoodPortalBlock.java",
+          "src/main/resources/data/pixel_pals_01/dimension/wild_wood.json",
+          "src/main/resources/assets/pixel_pals_01/models/block/wild_wood_portal_ns.json",
+          "src/main/resources/assets/pixel_pals_01/items/wild_wood.json",
           "src/main/java/net/mcreator/pixelpals/world/teleporter/WildWoodTeleporter.java",
-          "src/main/resources/data/pixel_pals_01/dimension/wild_wood.json"
+          "src/main/java/net/mcreator/pixelpals/item/WildWoodItem.java",
+          "src/main/resources/assets/pixel_pals_01/blockstates/wild_wood_portal.json",
+          "src/main/resources/data/pixel_pals_01/dimension_type/wild_wood.json",
+          "src/main/resources/assets/pixel_pals_01/models/item/wild_wood.json"
         ]
       },
       "path": "~/Dimensions"
@@ -2186,12 +2186,12 @@
       "registry_name": "soil",
       "metadata": {
         "files": [
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/soil.json",
+          "src/main/resources/assets/pixel_pals_01/models/item/soil.json",
           "src/main/resources/assets/pixel_pals_01/models/block/soil.json",
           "src/main/resources/assets/pixel_pals_01/blockstates/soil.json",
-          "src/main/resources/assets/pixel_pals_01/items/soil.json",
+          "src/main/resources/data/pixel_pals_01/loot_table/blocks/soil.json",
           "src/main/java/net/mcreator/pixelpals/block/SoilBlock.java",
-          "src/main/resources/assets/pixel_pals_01/models/item/soil.json"
+          "src/main/resources/assets/pixel_pals_01/items/soil.json"
         ]
       },
       "path": "~/Blocks"
@@ -2222,9 +2222,9 @@
       "registry_name": "pine_tree_feature",
       "metadata": {
         "files": [
-          "src/main/resources/data/pixel_pals_01/neoforge/biome_modifier/pine_tree_feature_biome_modifier.json",
           "src/main/resources/data/pixel_pals_01/worldgen/configured_feature/pine_tree_feature.json",
-          "src/main/resources/data/pixel_pals_01/worldgen/placed_feature/pine_tree_feature.json"
+          "src/main/resources/data/pixel_pals_01/worldgen/placed_feature/pine_tree_feature.json",
+          "src/main/resources/data/pixel_pals_01/neoforge/biome_modifier/pine_tree_feature_biome_modifier.json"
         ]
       },
       "path": "~/Features"
@@ -2241,6 +2241,36 @@
         ]
       },
       "path": "~/Biomes"
+    },
+    {
+      "name": "SquirtleMask",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squirtle_mask",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pixel_pals_01/items/squirtle_mask.json",
+          "src/main/java/net/mcreator/pixelpals/item/SquirtleMaskItem.java",
+          "src/main/resources/assets/pixel_pals_01/models/item/squirtle_mask.json"
+        ]
+      },
+      "path": "~/Masks"
+    },
+    {
+      "name": "SquirtleSMask",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squirtle_s_mask",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pixel_pals_01/models/item/squirtle_s_mask.json",
+          "src/main/java/net/mcreator/pixelpals/item/SquirtleSMaskItem.java",
+          "src/main/resources/assets/pixel_pals_01/items/squirtle_s_mask.json"
+        ]
+      },
+      "path": "~/Masks"
     }
   ],
   "variable_elements": [
@@ -2659,13 +2689,9 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~CUSTOM:ForestFloor",
-      "~CUSTOM:Soil",
       "~CUSTOM:Slate",
-      "~CUSTOM:PixelStone",
-      "~CUSTOM:PixelDirt",
-      "~CUSTOM:PixelGrass",
-      "~CUSTOM:FallenLeaves"
+      "~CUSTOM:ForestFloor",
+      "~CUSTOM:Soil"
     ]
   },
   "tab_element_order": {},
@@ -2791,22 +2817,24 @@
       "item.pixel_pals_01.wild_wood": "Wild Wood Portal Igniter",
       "item.pixel_pals_01.soil": "Soil",
       "item.pixel_pals_01.forest_floor": "Forest Floor",
-      "biome.pixel_pals_01.brisk_backwoods": "Brisk Backwoods"
+      "biome.pixel_pals_01.brisk_backwoods": "Brisk Backwoods",
+      "item.pixel_pals_01.squirtle_mask": "Pidgey Mask",
+      "item.pixel_pals_01.squirtle_s_mask": "Pidgey Mask"
     }
   },
   "metadata": {
     "files": [
-      "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/pixelpals/PixelPals01Mod.java",
-      "src/main/java/net/mcreator/pixelpals/init/PixelPals01ModTabs.java",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/pixelpals/init/PixelPals01ModSounds.java",
       "src/main/java/net/mcreator/pixelpals/network/PixelPals01ModVariables.java",
+      "src/main/java/net/mcreator/pixelpals/init/PixelPals01ModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/pixelpals/init/PixelPals01ModSounds.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/pack.mcmeta",
       "src/main/resources/assets/pixel_pals_01/sounds.json",
-      "src/main/java/net/mcreator/pixelpals/init/PixelPals01ModMenus.java",
       "src/main/java/net/mcreator/pixelpals/init/PixelPals01ModScreens.java",
       "src/main/java/net/mcreator/pixelpals/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/pixelpals/init/PixelPals01ModMenus.java",
       "src/main/java/net/mcreator/pixelpals/init/PixelPals01ModKeyMappings.java",
       "src/main/java/net/mcreator/pixelpals/init/PixelPals01ModBlocks.java",
       "src/main/java/net/mcreator/pixelpals/init/PixelPals01ModItems.java",
@@ -2879,5 +2907,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.pixelpals"
   },
-  "mcreatorVersion": 202500227613
+  "mcreatorVersion": 202500228610
 }

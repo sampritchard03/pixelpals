@@ -1,12 +1,8 @@
 {
   "replace": false,
   "values": [
-    "pixel_pals_01:fallen_leaves",
     "pixel_pals_01:soil",
     "pixel_pals_01:forest_floor",
-    "pixel_pals_01:pixel_grass",
-    "pixel_pals_01:pixel_dirt",
-    "pixel_pals_01:slate",
-    "pixel_pals_01:pixel_stone"
+    "pixel_pals_01:slate"
   ]
 }
