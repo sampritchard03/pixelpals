@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 2,
     "texture": "minecraft:acacia_boat",
-    "customModelName": "kakuna_s:default",
+    "customModelName": "kakuuna_s:default",
     "guiTexture": "",
     "customProperties": {},
     "states": [],

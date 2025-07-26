@@ -1,5 +1,5 @@
 {
-  "type": "pixel_pals_01:wild_wood",
+  "type": "pixel_pals_01:hazy_hectares",
   "generator": {
     "type": "minecraft:noise",
     "biome_source": {
@@ -20,7 +20,7 @@
       ]
     },
     "settings": {
-      "name": "pixel_pals_01:wild_wood",
+      "name": "pixel_pals_01:hazy_hectares",
       "sea_level": 60,
       "legacy_random_source": false,
       "disable_mob_generation": false,

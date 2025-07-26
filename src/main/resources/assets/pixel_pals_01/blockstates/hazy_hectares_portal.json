@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "pixel_pals_01:block/hazy_hectares_portal_ew"
+    },
+    "axis=x": {
+      "model": "pixel_pals_01:block/hazy_hectares_portal_ns"
+    }
+  }
+}

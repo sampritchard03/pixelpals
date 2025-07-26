@@ -42,7 +42,7 @@ public class PokemonOnEntityTickUpdateProcedure {
 			Entity _ent = entity;
 			_ent.setXRot(45);
 		}
-		if (findEntityInWorldRange(world, ServerPlayer.class, x, y, z, 64) == null) {
+		if (findEntityInWorldRange(world, ServerPlayer.class, x, y, z, 128) == null) {
 			if (!entity.level().isClientSide())
 				entity.discard();
 		}

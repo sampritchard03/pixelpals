@@ -12,7 +12,6 @@ import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.pixelpals.item.WildWoodItem;
 import net.mcreator.pixelpals.item.WeedleSMaskItem;
 import net.mcreator.pixelpals.item.WeedleMaskItem;
 import net.mcreator.pixelpals.item.WartortleSMaskItem;
@@ -43,6 +42,7 @@ import net.mcreator.pixelpals.item.KakunaSMaskItem;
 import net.mcreator.pixelpals.item.KakunaMaskItem;
 import net.mcreator.pixelpals.item.IvysaurSMaskItem;
 import net.mcreator.pixelpals.item.IvysaurMaskItem;
+import net.mcreator.pixelpals.item.HazyHectaresItem;
 import net.mcreator.pixelpals.item.DarkraiSMaskItem;
 import net.mcreator.pixelpals.item.DarkraiMaskItem;
 import net.mcreator.pixelpals.item.CharmeleonSMaskItem;
@@ -138,13 +138,13 @@ public class PixelPals01ModItems {
 	public static final DeferredItem<Item> KAKUNA_S_MASK = register("kakuna_s_mask", KakunaSMaskItem::new);
 	public static final DeferredItem<Item> PINE_TREE = block(PixelPals01ModBlocks.PINE_TREE);
 	public static final DeferredItem<Item> SLATE = block(PixelPals01ModBlocks.SLATE);
-	public static final DeferredItem<Item> WILD_WOOD = register("wild_wood", WildWoodItem::new);
 	public static final DeferredItem<Item> SOIL = block(PixelPals01ModBlocks.SOIL, new Item.Properties().stacksTo(99));
 	public static final DeferredItem<Item> FOREST_FLOOR = block(PixelPals01ModBlocks.FOREST_FLOOR, new Item.Properties().stacksTo(99));
 	public static final DeferredItem<Item> WARTORTLE_MASK = register("wartortle_mask", WartortleMaskItem::new);
 	public static final DeferredItem<Item> WARTORTLE_S_MASK = register("wartortle_s_mask", WartortleSMaskItem::new);
 	public static final DeferredItem<Item> SQUIRTLE_MASK = register("squirtle_mask", SquirtleMaskItem::new);
 	public static final DeferredItem<Item> SQUIRTLE_S_MASK = register("squirtle_s_mask", SquirtleSMaskItem::new);
+	public static final DeferredItem<Item> HAZY_HECTARES = register("hazy_hectares", HazyHectaresItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

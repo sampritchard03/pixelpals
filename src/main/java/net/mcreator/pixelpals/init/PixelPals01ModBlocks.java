@@ -10,7 +10,6 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.pixelpals.block.YellowTreeBlock;
-import net.mcreator.pixelpals.block.WildWoodPortalBlock;
 import net.mcreator.pixelpals.block.WhiteShroomBricksBlock;
 import net.mcreator.pixelpals.block.ToadHouseWallBlock;
 import net.mcreator.pixelpals.block.ToadHouseDoorwayBlock;
@@ -29,6 +28,7 @@ import net.mcreator.pixelpals.block.PixelDirtBlock;
 import net.mcreator.pixelpals.block.PineTreeBlock;
 import net.mcreator.pixelpals.block.PeacefulPlainsPortalBlock;
 import net.mcreator.pixelpals.block.OrangeTreeBlock;
+import net.mcreator.pixelpals.block.HazyHectaresPortalBlock;
 import net.mcreator.pixelpals.block.ForestFloorBlock;
 import net.mcreator.pixelpals.block.FallenLeavesBlock;
 import net.mcreator.pixelpals.block.BrownShroomBricksBlock;
@@ -62,9 +62,9 @@ public class PixelPals01ModBlocks {
 	public static final DeferredBlock<Block> TOAD_HOUSE_DOOR_OPEN = register("toad_house_door_open", ToadHouseDoorOpenBlock::new);
 	public static final DeferredBlock<Block> PINE_TREE = register("pine_tree", PineTreeBlock::new);
 	public static final DeferredBlock<Block> SLATE = register("slate", SlateBlock::new);
-	public static final DeferredBlock<Block> WILD_WOOD_PORTAL = register("wild_wood_portal", WildWoodPortalBlock::new);
 	public static final DeferredBlock<Block> SOIL = register("soil", SoilBlock::new);
 	public static final DeferredBlock<Block> FOREST_FLOOR = register("forest_floor", ForestFloorBlock::new);
+	public static final DeferredBlock<Block> HAZY_HECTARES_PORTAL = register("hazy_hectares_portal", HazyHectaresPortalBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

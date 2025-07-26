@@ -2155,30 +2155,6 @@
       "path": "~/Blocks"
     },
     {
-      "name": "WildWood",
-      "type": "dimension",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wild_wood",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/pixelpals/world/teleporter/WildWoodPortalShape.java",
-          "src/main/resources/assets/pixel_pals_01/models/item/wild_wood.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/wild_wood_portal_ns.json",
-          "src/main/resources/data/pixel_pals_01/dimension_type/wild_wood.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/wild_wood_portal.json",
-          "src/main/resources/assets/pixel_pals_01/items/wild_wood.json",
-          "src/main/java/net/mcreator/pixelpals/block/WildWoodPortalBlock.java",
-          "src/main/java/net/mcreator/pixelpals/world/dimension/WildWoodDimension.java",
-          "src/main/java/net/mcreator/pixelpals/item/WildWoodItem.java",
-          "src/main/resources/assets/pixel_pals_01/models/block/wild_wood_portal_ew.json",
-          "src/main/java/net/mcreator/pixelpals/world/teleporter/WildWoodTeleporter.java",
-          "src/main/resources/data/pixel_pals_01/dimension/wild_wood.json"
-        ]
-      },
-      "path": "~/Dimensions"
-    },
-    {
       "name": "Soil",
       "type": "block",
       "compiles": true,
@@ -2301,6 +2277,30 @@
         ]
       },
       "path": "~/Masks"
+    },
+    {
+      "name": "HazyHectares",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hazy_hectares",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pixel_pals_01/models/block/hazy_hectares_portal_ew.json",
+          "src/main/resources/data/pixel_pals_01/dimension/hazy_hectares.json",
+          "src/main/java/net/mcreator/pixelpals/world/teleporter/HazyHectaresTeleporter.java",
+          "src/main/resources/assets/pixel_pals_01/models/block/hazy_hectares_portal_ns.json",
+          "src/main/resources/assets/pixel_pals_01/blockstates/hazy_hectares_portal.json",
+          "src/main/resources/data/pixel_pals_01/dimension_type/hazy_hectares.json",
+          "src/main/resources/assets/pixel_pals_01/models/item/hazy_hectares.json",
+          "src/main/java/net/mcreator/pixelpals/world/teleporter/HazyHectaresPortalShape.java",
+          "src/main/java/net/mcreator/pixelpals/block/HazyHectaresPortalBlock.java",
+          "src/main/resources/assets/pixel_pals_01/items/hazy_hectares.json",
+          "src/main/java/net/mcreator/pixelpals/item/HazyHectaresItem.java",
+          "src/main/java/net/mcreator/pixelpals/world/dimension/HazyHectaresDimension.java"
+        ]
+      },
+      "path": "~/Dimensions"
     }
   ],
   "variable_elements": [
@@ -2844,14 +2844,14 @@
       "item.pixel_pals_01.kakuna_s_mask": "Pidgey Mask",
       "item.pixel_pals_01.pine_tree": "Pine Tree",
       "item.pixel_pals_01.slate": "Slate",
-      "item.pixel_pals_01.wild_wood": "Wild Wood Portal Igniter",
       "item.pixel_pals_01.soil": "Soil",
       "item.pixel_pals_01.forest_floor": "Forest Floor",
       "biome.pixel_pals_01.brisk_backwoods": "Brisk Backwoods",
       "item.pixel_pals_01.wartortle_mask": "Pidgey Mask",
       "item.pixel_pals_01.wartortle_s_mask": "Pidgey Mask",
       "item.pixel_pals_01.squirtle_mask": "Pidgey Mask",
-      "item.pixel_pals_01.squirtle_s_mask": "Pidgey Mask"
+      "item.pixel_pals_01.squirtle_s_mask": "Pidgey Mask",
+      "item.pixel_pals_01.hazy_hectares": "Wild Wood Portal Igniter"
     }
   },
   "metadata": {
