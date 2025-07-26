@@ -2241,6 +2241,36 @@
         ]
       },
       "path": "~/Biomes"
+    },
+    {
+      "name": "WartortleMask",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wartortle_mask",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pixel_pals_01/items/wartortle_mask.json",
+          "src/main/java/net/mcreator/pixelpals/item/WartortleMaskItem.java",
+          "src/main/resources/assets/pixel_pals_01/models/item/wartortle_mask.json"
+        ]
+      },
+      "path": "~/Masks"
+    },
+    {
+      "name": "WartortleSMask",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wartortle_s_mask",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pixelpals/item/WartortleSMaskItem.java",
+          "src/main/resources/assets/pixel_pals_01/items/wartortle_s_mask.json",
+          "src/main/resources/assets/pixel_pals_01/models/item/wartortle_s_mask.json"
+        ]
+      },
+      "path": "~/Masks"
     }
   ],
   "variable_elements": [
@@ -2659,13 +2689,9 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~CUSTOM:ForestFloor",
-      "~CUSTOM:Soil",
       "~CUSTOM:Slate",
-      "~CUSTOM:PixelStone",
-      "~CUSTOM:PixelDirt",
-      "~CUSTOM:PixelGrass",
-      "~CUSTOM:FallenLeaves"
+      "~CUSTOM:ForestFloor",
+      "~CUSTOM:Soil"
     ]
   },
   "tab_element_order": {},
@@ -2791,7 +2817,9 @@
       "item.pixel_pals_01.wild_wood": "Wild Wood Portal Igniter",
       "item.pixel_pals_01.soil": "Soil",
       "item.pixel_pals_01.forest_floor": "Forest Floor",
-      "biome.pixel_pals_01.brisk_backwoods": "Brisk Backwoods"
+      "biome.pixel_pals_01.brisk_backwoods": "Brisk Backwoods",
+      "item.pixel_pals_01.wartortle_mask": "Pidgey Mask",
+      "item.pixel_pals_01.wartortle_s_mask": "Pidgey Mask"
     }
   },
   "metadata": {
@@ -2879,5 +2907,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.pixelpals"
   },
-  "mcreatorVersion": 202500227613
+  "mcreatorVersion": 202500228610
 }

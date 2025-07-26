@@ -23,7 +23,7 @@ public class Lvl1LandPokeGeneratorOnInitialEntitySpawnProcedure {
 	}
 
 	public static void initializePokemon(PokemonEntity pokemon) {
-		String[] allSpecies = {"bulbasaur", "ivysaur","venusaur","charmander", "charmeleon", "charizard", "blastoise", "caterpie", "metapod", "butterfree", "weedle", "kakuna", "beedrill", "pidgey", "rattata", "machamp", "krabby", "mrmime", "snorlax", "armaldo", "darkrai"};
+		String[] allSpecies = {"bulbasaur", "ivysaur","venusaur","charmander", "charmeleon", "charizard", "squirtle", "wartortle", "blastoise", "caterpie", "metapod", "butterfree", "weedle", "kakuna", "beedrill", "pidgey", "rattata", "machamp", "krabby", "mrmime", "snorlax", "armaldo", "darkrai"};
 		String species = allSpecies[(int) Math.floor(allSpecies.length * Math.random())];
 		int level = (int) Math.floor(100 * Math.random()) + 1;
 		pokemon.getEntityData().set(PokemonEntity.DATA_Species, species);

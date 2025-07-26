@@ -15,6 +15,8 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.pixelpals.item.WildWoodItem;
 import net.mcreator.pixelpals.item.WeedleSMaskItem;
 import net.mcreator.pixelpals.item.WeedleMaskItem;
+import net.mcreator.pixelpals.item.WartortleSMaskItem;
+import net.mcreator.pixelpals.item.WartortleMaskItem;
 import net.mcreator.pixelpals.item.VenusaurSMaskItem;
 import net.mcreator.pixelpals.item.VenusaurMaskItem;
 import net.mcreator.pixelpals.item.SnorlaxSMaskItem;
@@ -137,6 +139,8 @@ public class PixelPals01ModItems {
 	public static final DeferredItem<Item> WILD_WOOD = register("wild_wood", WildWoodItem::new);
 	public static final DeferredItem<Item> SOIL = block(PixelPals01ModBlocks.SOIL, new Item.Properties().stacksTo(99));
 	public static final DeferredItem<Item> FOREST_FLOOR = block(PixelPals01ModBlocks.FOREST_FLOOR, new Item.Properties().stacksTo(99));
+	public static final DeferredItem<Item> WARTORTLE_MASK = register("wartortle_mask", WartortleMaskItem::new);
+	public static final DeferredItem<Item> WARTORTLE_S_MASK = register("wartortle_s_mask", WartortleSMaskItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

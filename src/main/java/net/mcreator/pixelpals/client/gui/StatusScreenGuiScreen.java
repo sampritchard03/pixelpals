@@ -62,7 +62,7 @@ public class StatusScreenGuiScreen extends AbstractContainerScreen<StatusScreenG
 	}
 
 	@Override
-	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int gx, int gy) {
+	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
@@ -87,6 +87,8 @@ public class StatusScreenGuiScreen extends AbstractContainerScreen<StatusScreenG
 	public void init() {
 		super.init();
 		button_view_slot_1 = Button.builder(Component.translatable("gui.pixel_pals_01.status_screen_gui.button_view_slot_1"), e -> {
+			int x = StatusScreenGuiScreen.this.x;
+			int y = StatusScreenGuiScreen.this.y;
 			if (true) {
 				PacketDistributor.sendToServer(new StatusScreenGuiButtonMessage(0, x, y, z));
 				StatusScreenGuiButtonMessage.handleButtonAction(entity, 0, x, y, z);
@@ -94,6 +96,8 @@ public class StatusScreenGuiScreen extends AbstractContainerScreen<StatusScreenG
 		}).bounds(this.leftPos + 10, this.topPos + 46, 82, 20).build();
 		this.addRenderableWidget(button_view_slot_1);
 		button_view_slot_2 = Button.builder(Component.translatable("gui.pixel_pals_01.status_screen_gui.button_view_slot_2"), e -> {
+			int x = StatusScreenGuiScreen.this.x;
+			int y = StatusScreenGuiScreen.this.y;
 			if (true) {
 				PacketDistributor.sendToServer(new StatusScreenGuiButtonMessage(1, x, y, z));
 				StatusScreenGuiButtonMessage.handleButtonAction(entity, 1, x, y, z);
@@ -101,6 +105,8 @@ public class StatusScreenGuiScreen extends AbstractContainerScreen<StatusScreenG
 		}).bounds(this.leftPos + 10, this.topPos + 105, 82, 20).build();
 		this.addRenderableWidget(button_view_slot_2);
 		button_view_slot_3 = Button.builder(Component.translatable("gui.pixel_pals_01.status_screen_gui.button_view_slot_3"), e -> {
+			int x = StatusScreenGuiScreen.this.x;
+			int y = StatusScreenGuiScreen.this.y;
 			if (true) {
 				PacketDistributor.sendToServer(new StatusScreenGuiButtonMessage(2, x, y, z));
 				StatusScreenGuiButtonMessage.handleButtonAction(entity, 2, x, y, z);
@@ -108,6 +114,8 @@ public class StatusScreenGuiScreen extends AbstractContainerScreen<StatusScreenG
 		}).bounds(this.leftPos + 11, this.topPos + 161, 82, 20).build();
 		this.addRenderableWidget(button_view_slot_3);
 		button_select_slot_2 = Button.builder(Component.translatable("gui.pixel_pals_01.status_screen_gui.button_select_slot_2"), e -> {
+			int x = StatusScreenGuiScreen.this.x;
+			int y = StatusScreenGuiScreen.this.y;
 			if (true) {
 				PacketDistributor.sendToServer(new StatusScreenGuiButtonMessage(3, x, y, z));
 				StatusScreenGuiButtonMessage.handleButtonAction(entity, 3, x, y, z);
@@ -115,6 +123,8 @@ public class StatusScreenGuiScreen extends AbstractContainerScreen<StatusScreenG
 		}).bounds(this.leftPos + 269, this.topPos + 46, 92, 20).build();
 		this.addRenderableWidget(button_select_slot_2);
 		button_select_slot_4 = Button.builder(Component.translatable("gui.pixel_pals_01.status_screen_gui.button_select_slot_4"), e -> {
+			int x = StatusScreenGuiScreen.this.x;
+			int y = StatusScreenGuiScreen.this.y;
 			if (true) {
 				PacketDistributor.sendToServer(new StatusScreenGuiButtonMessage(4, x, y, z));
 				StatusScreenGuiButtonMessage.handleButtonAction(entity, 4, x, y, z);
@@ -122,6 +132,8 @@ public class StatusScreenGuiScreen extends AbstractContainerScreen<StatusScreenG
 		}).bounds(this.leftPos + 269, this.topPos + 105, 92, 20).build();
 		this.addRenderableWidget(button_select_slot_4);
 		button_select_slot_6 = Button.builder(Component.translatable("gui.pixel_pals_01.status_screen_gui.button_select_slot_6"), e -> {
+			int x = StatusScreenGuiScreen.this.x;
+			int y = StatusScreenGuiScreen.this.y;
 			if (true) {
 				PacketDistributor.sendToServer(new StatusScreenGuiButtonMessage(5, x, y, z));
 				StatusScreenGuiButtonMessage.handleButtonAction(entity, 5, x, y, z);
