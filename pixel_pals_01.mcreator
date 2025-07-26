@@ -2271,6 +2271,36 @@
         ]
       },
       "path": "~/Masks"
+    },
+    {
+      "name": "SquirtleMask",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squirtle_mask",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pixel_pals_01/items/squirtle_mask.json",
+          "src/main/java/net/mcreator/pixelpals/item/SquirtleMaskItem.java",
+          "src/main/resources/assets/pixel_pals_01/models/item/squirtle_mask.json"
+        ]
+      },
+      "path": "~/Masks"
+    },
+    {
+      "name": "SquirtleSMask",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squirtle_s_mask",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pixelpals/item/SquirtleSMaskItem.java",
+          "src/main/resources/assets/pixel_pals_01/models/item/squirtle_s_mask.json",
+          "src/main/resources/assets/pixel_pals_01/items/squirtle_s_mask.json"
+        ]
+      },
+      "path": "~/Masks"
     }
   ],
   "variable_elements": [
@@ -2689,9 +2719,13 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~CUSTOM:Slate",
       "~CUSTOM:ForestFloor",
-      "~CUSTOM:Soil"
+      "~CUSTOM:Soil",
+      "~CUSTOM:Slate",
+      "~CUSTOM:PixelStone",
+      "~CUSTOM:PixelDirt",
+      "~CUSTOM:PixelGrass",
+      "~CUSTOM:FallenLeaves"
     ]
   },
   "tab_element_order": {},
@@ -2817,9 +2851,7 @@
       "item.pixel_pals_01.wild_wood": "Wild Wood Portal Igniter",
       "item.pixel_pals_01.soil": "Soil",
       "item.pixel_pals_01.forest_floor": "Forest Floor",
-      "biome.pixel_pals_01.brisk_backwoods": "Brisk Backwoods",
-      "item.pixel_pals_01.wartortle_mask": "Pidgey Mask",
-      "item.pixel_pals_01.wartortle_s_mask": "Pidgey Mask"
+      "biome.pixel_pals_01.brisk_backwoods": "Brisk Backwoods"
     }
   },
   "metadata": {
@@ -2846,35 +2878,7 @@
     "name": "~",
     "children": [
       {
-        "name": "Dimensions",
-        "children": []
-      },
-      {
-        "name": "Blocks",
-        "children": []
-      },
-      {
-        "name": "Plants",
-        "children": []
-      },
-      {
-        "name": "Procedures",
-        "children": []
-      },
-      {
-        "name": "Features",
-        "children": []
-      },
-      {
-        "name": "Entities",
-        "children": []
-      },
-      {
         "name": "Biomes",
-        "children": []
-      },
-      {
-        "name": "Masks",
         "children": []
       },
       {
@@ -2886,7 +2890,35 @@
         "children": []
       },
       {
+        "name": "Features",
+        "children": []
+      },
+      {
         "name": "GUIs",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Plants",
+        "children": []
+      },
+      {
+        "name": "Entities",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Masks",
+        "children": []
+      },
+      {
+        "name": "Dimensions",
         "children": []
       }
     ]
@@ -2907,5 +2939,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.pixelpals"
   },
-  "mcreatorVersion": 202500228610
+  "mcreatorVersion": 202500227613
 }

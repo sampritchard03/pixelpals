@@ -1,25 +1,5 @@
 package net.mcreator.pixelpals.client.gui;
 
-import net.neoforged.neoforge.network.PacketDistributor;
-
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
-import net.minecraft.client.gui.GuiGraphics;
-
-import net.mcreator.pixelpals.world.inventory.StatusScreenGuiMenu;
-import net.mcreator.pixelpals.procedures.StatusScreenGetSelectedEntityModelProcedure;
-import net.mcreator.pixelpals.network.StatusScreenGuiButtonMessage;
-import net.mcreator.pixelpals.init.PixelPals01ModScreens;
-
-import com.mojang.blaze3d.systems.RenderSystem;
-
 public class StatusScreenGuiScreen extends AbstractContainerScreen<StatusScreenGuiMenu> implements PixelPals01ModScreens.ScreenAccessor {
 	private final Level world;
 	private final int x, y, z;

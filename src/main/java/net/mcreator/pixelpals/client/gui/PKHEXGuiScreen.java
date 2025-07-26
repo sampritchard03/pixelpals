@@ -1,21 +1,5 @@
 package net.mcreator.pixelpals.client.gui;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.EditBox;
-import net.minecraft.client.gui.GuiGraphics;
-import net.minecraft.client.Minecraft;
-
-import net.mcreator.pixelpals.world.inventory.PKHEXGuiMenu;
-import net.mcreator.pixelpals.init.PixelPals01ModScreens;
-
-import com.mojang.blaze3d.systems.RenderSystem;
-
 public class PKHEXGuiScreen extends AbstractContainerScreen<PKHEXGuiMenu> implements PixelPals01ModScreens.ScreenAccessor {
 	private final Level world;
 	private final int x, y, z;
