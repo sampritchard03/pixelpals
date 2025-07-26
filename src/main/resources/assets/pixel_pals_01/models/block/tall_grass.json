@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "pixel_pals_01:block/tallgrass",
-    "particle": "pixel_pals_01:block/tallgrass"
-  },
-  "render_type": "cutout"
-}

@@ -1,6 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": "pixel_pals_01:autumn_zone",
-  "features": "pixel_pals_01:orange_tree_feature",
-  "step": "surface_structures"
-}

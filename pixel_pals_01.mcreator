@@ -1,120 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "PeacefulPlains",
-      "type": "dimension",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "peaceful_plains",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/pixel_pals_01/dimension_type/peaceful_plains.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/peaceful_plains_portal_ew.json",
-          "src/main/resources/data/pixel_pals_01/dimension/peaceful_plains.json",
-          "src/main/java/net/mcreator/pixelpals/item/PeacefulPlainsItem.java",
-          "src/main/java/net/mcreator/pixelpals/world/dimension/PeacefulPlainsDimension.java",
-          "src/main/resources/assets/pixel_pals_01/items/peaceful_plains.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/peaceful_plains.json",
-          "src/main/java/net/mcreator/pixelpals/block/PeacefulPlainsPortalBlock.java",
-          "src/main/resources/assets/pixel_pals_01/blockstates/peaceful_plains_portal.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/peaceful_plains_portal_ns.json",
-          "src/main/java/net/mcreator/pixelpals/world/teleporter/PeacefulPlainsTeleporter.java",
-          "src/main/java/net/mcreator/pixelpals/world/teleporter/PeacefulPlainsPortalShape.java"
-        ]
-      },
-      "path": "~/Dimensions"
-    },
-    {
-      "name": "PixelGrass",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pixel_grass",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/pixel_pals_01/blockstates/pixel_grass.json",
-          "src/main/java/net/mcreator/pixelpals/block/PixelGrassBlock.java",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/pixel_grass.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/pixel_grass.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/pixel_grass.json",
-          "src/main/resources/assets/pixel_pals_01/items/pixel_grass.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "PixelDirt",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pixel_dirt",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/pixel_pals_01/items/pixel_dirt.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/pixel_dirt.json",
-          "src/main/java/net/mcreator/pixelpals/block/PixelDirtBlock.java",
-          "src/main/resources/assets/pixel_pals_01/models/block/pixel_dirt.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/pixel_dirt.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/pixel_dirt.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "PixelStone",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pixel_stone",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/pixelpals/block/PixelStoneBlock.java",
-          "src/main/resources/assets/pixel_pals_01/blockstates/pixel_stone.json",
-          "src/main/resources/assets/pixel_pals_01/items/pixel_stone.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/pixel_stone.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/pixel_stone.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/pixel_stone.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "PixelSand",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pixel_sand",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/pixel_pals_01/models/item/pixel_sand.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/pixel_sand.json",
-          "src/main/resources/assets/pixel_pals_01/items/pixel_sand.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/pixel_sand.json",
-          "src/main/java/net/mcreator/pixelpals/block/PixelSandBlock.java",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/pixel_sand.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "BlobbyLog",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blobby_log",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/pixelpals/block/BlobbyLogBlock.java",
-          "src/main/resources/assets/pixel_pals_01/models/block/blobby_log.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/blobby_log.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/blobby_log.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/blobby_log.json",
-          "src/main/resources/assets/pixel_pals_01/items/blobby_log.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
       "name": "PixelPalsTab",
       "type": "tab",
       "compiles": true,
@@ -123,85 +9,6 @@
       "metadata": {
         "files": []
       }
-    },
-    {
-      "name": "BlobbyTree",
-      "type": "plant",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blobby_tree",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/pixel_pals_01/blockstates/blobby_tree.json",
-          "src/main/resources/assets/pixel_pals_01/items/blobby_tree.json",
-          "src/main/java/net/mcreator/pixelpals/block/BlobbyTreeBlock.java",
-          "src/main/resources/assets/pixel_pals_01/models/item/blobby_tree.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/blobby_tree.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/blobby_tree.json"
-        ]
-      },
-      "path": "~/Plants"
-    },
-    {
-      "name": "BlobbyTreeFeature",
-      "type": "feature",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blobby_tree_feature",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/pixel_pals_01/neoforge/biome_modifier/blobby_tree_feature_biome_modifier.json",
-          "src/main/resources/data/pixel_pals_01/worldgen/configured_feature/blobby_tree_feature.json",
-          "src/main/resources/data/pixel_pals_01/worldgen/placed_feature/blobby_tree_feature.json"
-        ]
-      },
-      "path": "~/Features"
-    },
-    {
-      "name": "TallGrass",
-      "type": "plant",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tall_grass",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/pixel_pals_01/models/item/tall_grass.json",
-          "src/main/java/net/mcreator/pixelpals/block/TallGrassBlock.java",
-          "src/main/resources/assets/pixel_pals_01/items/tall_grass.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/tall_grass.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/tall_grass.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/tall_grass.json"
-        ]
-      },
-      "path": "~/Plants"
-    },
-    {
-      "name": "TallGrassFeature",
-      "type": "feature",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tall_grass_feature",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/pixel_pals_01/neoforge/biome_modifier/tall_grass_feature_biome_modifier.json",
-          "src/main/resources/data/pixel_pals_01/worldgen/configured_feature/tall_grass_feature.json",
-          "src/main/resources/data/pixel_pals_01/worldgen/placed_feature/tall_grass_feature.json"
-        ]
-      },
-      "path": "~/Features"
-    },
-    {
-      "name": "PeacefulPlainsBiome",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "peaceful_plains_biome",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/pixel_pals_01/worldgen/biome/peaceful_plains_biome.json"
-        ]
-      },
-      "path": "~/Biomes"
     },
     {
       "name": "PidgeyMask",
@@ -289,12 +96,7 @@
       "locked_code": false,
       "registry_name": "test",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
+        "dependencies": [],
         "files": [
           "src/main/java/net/mcreator/pixelpals/procedures/TestProcedure.java"
         ]
@@ -360,103 +162,6 @@
         ]
       },
       "path": "~/Masks"
-    },
-    {
-      "name": "AutumnZone",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "autumn_zone",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/pixel_pals_01/worldgen/biome/autumn_zone.json"
-        ]
-      },
-      "path": "~/Biomes"
-    },
-    {
-      "name": "FallenLeaves",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fallen_leaves",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/pixelpals/block/FallenLeavesBlock.java",
-          "src/main/resources/assets/pixel_pals_01/models/item/fallen_leaves.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/fallen_leaves.json",
-          "src/main/resources/assets/pixel_pals_01/items/fallen_leaves.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/fallen_leaves.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/fallen_leaves.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "YellowTree",
-      "type": "plant",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "yellow_tree",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/pixel_pals_01/items/yellow_tree.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/yellow_tree.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/yellow_tree.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/yellow_tree.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/yellow_tree.json",
-          "src/main/java/net/mcreator/pixelpals/block/YellowTreeBlock.java"
-        ]
-      },
-      "path": "~/Plants"
-    },
-    {
-      "name": "OrangeTree",
-      "type": "plant",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "orange_tree",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/pixel_pals_01/items/orange_tree.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/orange_tree.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/orange_tree.json",
-          "src/main/java/net/mcreator/pixelpals/block/OrangeTreeBlock.java",
-          "src/main/resources/assets/pixel_pals_01/blockstates/orange_tree.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/orange_tree.json"
-        ]
-      },
-      "path": "~/Plants"
-    },
-    {
-      "name": "YellowTreeFeature",
-      "type": "feature",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "yellow_tree_feature",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/pixel_pals_01/worldgen/configured_feature/yellow_tree_feature.json",
-          "src/main/resources/data/pixel_pals_01/worldgen/placed_feature/yellow_tree_feature.json",
-          "src/main/resources/data/pixel_pals_01/neoforge/biome_modifier/yellow_tree_feature_biome_modifier.json"
-        ]
-      },
-      "path": "~/Features"
-    },
-    {
-      "name": "OrangeTreeFeature",
-      "type": "feature",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "orange_tree_feature",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/pixel_pals_01/neoforge/biome_modifier/orange_tree_feature_biome_modifier.json",
-          "src/main/resources/data/pixel_pals_01/worldgen/configured_feature/orange_tree_feature.json",
-          "src/main/resources/data/pixel_pals_01/worldgen/placed_feature/orange_tree_feature.json"
-        ]
-      },
-      "path": "~/Features"
     },
     {
       "name": "SnorlaxMask",
@@ -951,132 +656,6 @@
       "path": "~/Procedures"
     },
     {
-      "name": "ToadHouseWall",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toad_house_wall",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/pixel_pals_01/blockstates/toad_house_wall.json",
-          "src/main/java/net/mcreator/pixelpals/block/ToadHouseWallBlock.java",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/toad_house_wall.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/toad_house_wall.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/toad_house_wall.json",
-          "src/main/resources/assets/pixel_pals_01/items/toad_house_wall.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "ShroomCement",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shroom_cement",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/pixelpals/block/ShroomCementBlock.java",
-          "src/main/resources/assets/pixel_pals_01/models/item/shroom_cement.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/shroom_cement.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/shroom_cement.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/shroom_cement.json",
-          "src/main/resources/assets/pixel_pals_01/items/shroom_cement.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "BrownShroomBricks",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "brown_shroom_bricks",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/pixel_pals_01/models/item/brown_shroom_bricks.json",
-          "src/main/resources/assets/pixel_pals_01/items/brown_shroom_bricks.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/brown_shroom_bricks.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/brown_shroom_bricks.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/brown_shroom_bricks.json",
-          "src/main/java/net/mcreator/pixelpals/block/BrownShroomBricksBlock.java"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "WhiteShroomBricks",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "white_shroom_bricks",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/pixel_pals_01/models/item/white_shroom_bricks.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/white_shroom_bricks.json",
-          "src/main/resources/assets/pixel_pals_01/items/white_shroom_bricks.json",
-          "src/main/java/net/mcreator/pixelpals/block/WhiteShroomBricksBlock.java",
-          "src/main/resources/assets/pixel_pals_01/blockstates/white_shroom_bricks.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/white_shroom_bricks.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "ToadHouseDoorway",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toad_house_doorway",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/pixel_pals_01/models/block/toad_house_doorway.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/toad_house_doorway.json",
-          "src/main/java/net/mcreator/pixelpals/block/ToadHouseDoorwayBlock.java",
-          "src/main/resources/assets/pixel_pals_01/models/item/toad_house_doorway.json",
-          "src/main/resources/assets/pixel_pals_01/items/toad_house_doorway.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/toad_house_doorway.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "RedShroomBlock",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "red_shroom_block",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/pixel_pals_01/models/block/red_shroom_block.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/red_shroom_block.json",
-          "src/main/resources/assets/pixel_pals_01/blockstates/red_shroom_block.json",
-          "src/main/java/net/mcreator/pixelpals/block/RedShroomBlockBlock.java",
-          "src/main/resources/assets/pixel_pals_01/items/red_shroom_block.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/red_shroom_block.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "RedToadHouse",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "red_toad_house",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/pixel_pals_01/blockstates/red_toad_house.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/red_toad_house.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/red_toad_house.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/red_toad_house.json",
-          "src/main/java/net/mcreator/pixelpals/block/RedToadHouseBlock.java",
-          "src/main/resources/assets/pixel_pals_01/items/red_toad_house.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
       "name": "Lvl1LandPokeGenerator",
       "type": "livingentity",
       "compiles": true,
@@ -1323,104 +902,6 @@
         ]
       },
       "path": "~/Masks"
-    },
-    {
-      "name": "ToadHouseDoor",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toad_house_door",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/pixelpals/block/ToadHouseDoorBlock.java",
-          "src/main/resources/assets/pixel_pals_01/blockstates/toad_house_door.json",
-          "src/main/resources/assets/pixel_pals_01/items/toad_house_door.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/toad_house_door.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/toad_house_door.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/toad_house_door.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "ToadHouseDoorOpen",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toad_house_door_open",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/pixel_pals_01/blockstates/toad_house_door_open.json",
-          "src/main/resources/assets/pixel_pals_01/models/block/toad_house_door_open.json",
-          "src/main/resources/assets/pixel_pals_01/models/item/toad_house_door_open.json",
-          "src/main/resources/data/pixel_pals_01/loot_table/blocks/toad_house_door_open.json",
-          "src/main/java/net/mcreator/pixelpals/block/ToadHouseDoorOpenBlock.java",
-          "src/main/resources/assets/pixel_pals_01/items/toad_house_door_open.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "ToadHouseDoorOnBlockRightClicked",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toad_house_door_on_block_right_clicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/pixelpals/procedures/ToadHouseDoorOnBlockRightClickedProcedure.java"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "ToadHouseDoorOpenOnBlockRightClicked",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toad_house_door_open_on_block_right_clicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/pixelpals/procedures/ToadHouseDoorOpenOnBlockRightClickedProcedure.java"
-        ]
-      },
-      "path": "~/Blocks"
     },
     {
       "name": "PokeballOccupied",
@@ -2735,8 +2216,8 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~CUSTOM:BeachPebbles",
       "~CUSTOM:Slate",
+      "~CUSTOM:BeachPebbles",
       "~CUSTOM:ForestFloor",
       "~CUSTOM:Soil"
     ]
@@ -2744,16 +2225,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.pixel_pals_01.peaceful_plains": "Peaceful Plains Portal Igniter",
-      "item.pixel_pals_01.pixel_grass": "Pixel Grass",
-      "item.pixel_pals_01.pixel_dirt": "Peaceful Dirt",
-      "item.pixel_pals_01.pixel_stone": "Pixel Stone",
-      "item.pixel_pals_01.pixel_sand": "Pixel Sand",
-      "item.pixel_pals_01.blobby_log": "Blobby Log",
       "item_group.pixel_pals_01.pixel_pals_tab": "Pixel Pals",
-      "item.pixel_pals_01.blobby_tree": "Blobby Tree",
-      "item.pixel_pals_01.tall_grass": "Tall Grass",
-      "biome.pixel_pals_01.peaceful_plains_biome": "Peaceful Plains Biome",
       "subtitles.blank": "",
       "subtitles.charmander": "charmander cries",
       "subtitles.blastoise": "blastoise cries",
@@ -2770,10 +2242,6 @@
       "item.pixel_pals_01.venusaur_mask": "Pidgey Mask",
       "item.pixel_pals_01.mr_mime_mask": "Pidgey Mask",
       "item.pixel_pals_01.darkrai_mask": "Pidgey Mask",
-      "biome.pixel_pals_01.autumn_zone": "Autumn Zone",
-      "item.pixel_pals_01.fallen_leaves": "Fallen Leaves",
-      "item.pixel_pals_01.yellow_tree": "Blobby Tree",
-      "item.pixel_pals_01.orange_tree": "Blobby Tree",
       "item.pixel_pals_01.snorlax_mask": "Pidgey Mask",
       "item.pixel_pals_01.krabby_mask": "Pidgey Mask",
       "subtitles.venusaur": "venusaur cries",
@@ -2794,13 +2262,6 @@
       "item.pixel_pals_01.pkhex": "PKHEX",
       "gui.pixel_pals_01.pokemon_tame_fail_gui.label_for_this_pokemon": "for this pokemon!",
       "gui.pixel_pals_01.pokemon_tame_fail_gui.label_you_have_no_room_for_this_pokemo": "you have no room",
-      "item.pixel_pals_01.toad_house_wall": "Toad House Wall",
-      "item.pixel_pals_01.shroom_cement": "Shroom Cement",
-      "item.pixel_pals_01.brown_shroom_bricks": "Brown Shroom Bricks",
-      "item.pixel_pals_01.white_shroom_bricks": "White Shroom Bricks",
-      "item.pixel_pals_01.toad_house_doorway": "Toad House Doorway",
-      "item.pixel_pals_01.red_shroom_block": "Red Shroom Block",
-      "item.pixel_pals_01.red_toad_house": "Red Toad House",
       "entity.pixel_pals_01.lvl_1_land_poke_generator": "Lvl 1 Land Poke Generator",
       "item.pixel_pals_01.lvl_1_land_poke_generator_spawn_egg": "Lvl 1 Land Poke Generator Spawn Egg",
       "item.pixel_pals_01.armaldo_s_mask": "Pidgey Mask",
@@ -2814,8 +2275,6 @@
       "item.pixel_pals_01.rattata_s_mask": "Pidgey Mask",
       "item.pixel_pals_01.snorlax_s_mask": "Pidgey Mask",
       "item.pixel_pals_01.venusaur_s_mask": "Pidgey Mask",
-      "item.pixel_pals_01.toad_house_door": "Toad House Door",
-      "item.pixel_pals_01.toad_house_door_open": "Toad House Door",
       "subtitles.door_close": "door closes",
       "subtitles.door_open": "door opens",
       "item.pixel_pals_01.pokeball_occupied": "Pokeball",

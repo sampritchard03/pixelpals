@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "pixel_pals_01:block/shroomblock",
-    "particle": "pixel_pals_01:block/shroomblock"
-  },
-  "render_type": "cutout_mipped"
-}

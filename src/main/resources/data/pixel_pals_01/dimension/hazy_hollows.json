@@ -536,7 +536,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "pixel_pals_01:soil"
+                        "Name": "pixel_pals_01:beach_pebbles"
                       }
                     }
                   }

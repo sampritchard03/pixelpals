@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "pixel_pals_01:block/farawaystone",
-    "particle": "pixel_pals_01:block/farawaystone"
-  },
-  "render_type": "solid"
-}
