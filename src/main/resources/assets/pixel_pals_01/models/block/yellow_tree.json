@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "cutout",
+      "model": "pixel_pals_01:models/item/yellowtree.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "Material": "pixel_pals_01:block/yellowtree",
+        "particle": "pixel_pals_01:block/yellowtree"
+      }
+    }
+  },
+  "textures": {
+    "particle": "pixel_pals_01:block/yellowtree"
+  },
+  "render_type": "cutout"
+}

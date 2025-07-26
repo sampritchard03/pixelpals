@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "cutout",
+      "model": "pixel_pals_01:models/item/pinetree.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "jog_treeA": "pixel_pals_01:block/pinetree2",
+        "particle": "pixel_pals_01:block/pinetree"
+      }
+    }
+  },
+  "textures": {
+    "particle": "pixel_pals_01:block/pinetree"
+  },
+  "render_type": "cutout"
+}

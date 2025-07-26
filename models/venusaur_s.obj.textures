@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "material_atlas_00015_1": "venusaur_s"
+      },
+      "name": "default"
+    }
+  }
+}

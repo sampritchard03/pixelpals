@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "pixel_pals_01:block/farawaydirt",
+    "top": "pixel_pals_01:block/fallenleaves",
+    "side": "pixel_pals_01:block/fallenleavesside",
+    "overlay": "pixel_pals_01:block/fallenleavesside",
+    "particle": "pixel_pals_01:block/farawaydirt"
+  },
+  "render_type": "cutout_mipped"
+}

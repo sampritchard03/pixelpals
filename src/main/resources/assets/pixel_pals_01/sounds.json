@@ -1,0 +1,253 @@
+{
+  "blank": {
+    "sounds": [
+      {
+        "name": "pixel_pals_01:blank",
+        "stream": false
+      }
+    ]
+  },
+  "blastoise": {
+    "subtitle": "subtitles.blastoise",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:9",
+        "stream": false
+      }
+    ]
+  },
+  "charmeleon": {
+    "subtitle": "subtitles.charmeleon",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:5",
+        "stream": false
+      }
+    ]
+  },
+  "rattata": {
+    "subtitle": "subtitles.rattata",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:19",
+        "stream": false
+      }
+    ]
+  },
+  "magikarp": {
+    "subtitle": "subtitles.magikarp",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:129",
+        "stream": false
+      }
+    ]
+  },
+  "snorlax": {
+    "subtitle": "subtitles.snorlax",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:143",
+        "stream": false
+      }
+    ]
+  },
+  "venusaur": {
+    "subtitle": "subtitles.venusaur",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:3",
+        "stream": false
+      }
+    ]
+  },
+  "pidgey": {
+    "subtitle": "subtitles.pidgey",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:16",
+        "stream": false
+      }
+    ]
+  },
+  "machamp": {
+    "subtitle": "subtitles.machamp",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:68",
+        "stream": false
+      }
+    ]
+  },
+  "krabby": {
+    "subtitle": "subtitles.krabby",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:98",
+        "stream": false
+      }
+    ]
+  },
+  "mrmime": {
+    "subtitle": "subtitles.mrmime",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:122",
+        "stream": false
+      }
+    ]
+  },
+  "armaldo": {
+    "subtitle": "subtitles.armaldo",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:348",
+        "stream": false
+      }
+    ]
+  },
+  "darkrai": {
+    "subtitle": "subtitles.darkrai",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:491",
+        "stream": false
+      }
+    ]
+  },
+  "throw": {
+    "subtitle": "subtitles.throw",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:throw",
+        "stream": false
+      }
+    ]
+  },
+  "door_close": {
+    "subtitle": "subtitles.door_close",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:door_close",
+        "stream": false
+      }
+    ]
+  },
+  "door_open": {
+    "subtitle": "subtitles.door_open",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:door_open",
+        "stream": false
+      }
+    ]
+  },
+  "bulbasaur": {
+    "subtitle": "subtitles.bulbasaur",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:1",
+        "stream": false
+      }
+    ]
+  },
+  "ivysaur": {
+    "subtitle": "subtitles.ivysaur",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:2",
+        "stream": false
+      }
+    ]
+  },
+  "butterfree": {
+    "subtitle": "subtitles.butterfree",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:12",
+        "stream": false
+      }
+    ]
+  },
+  "weedle": {
+    "subtitle": "subtitles.weedle",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:13",
+        "stream": false
+      }
+    ]
+  },
+  "beedrill": {
+    "subtitle": "subtitles.beedrill",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:15",
+        "stream": false
+      }
+    ]
+  },
+  "caterpie": {
+    "subtitle": "subtitles.caterpie",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:10",
+        "stream": false
+      }
+    ]
+  },
+  "charmander": {
+    "subtitle": "subtitles.charmander",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:4",
+        "stream": false
+      }
+    ]
+  },
+  "charizard": {
+    "subtitle": "subtitles.charizard",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:6",
+        "stream": false
+      }
+    ]
+  },
+  "squirtle": {
+    "subtitle": "subtitles.squirtle",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:7",
+        "stream": false
+      }
+    ]
+  },
+  "wartortle": {
+    "subtitle": "subtitles.wartortle",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:8",
+        "stream": false
+      }
+    ]
+  },
+  "metapod": {
+    "subtitle": "subtitles.metapod",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:11",
+        "stream": false
+      }
+    ]
+  },
+  "kakuna": {
+    "subtitle": "subtitles.kakuna",
+    "sounds": [
+      {
+        "name": "pixel_pals_01:14",
+        "stream": false
+      }
+    ]
+  }
+}

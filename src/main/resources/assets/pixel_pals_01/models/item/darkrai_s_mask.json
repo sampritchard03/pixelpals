@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:obj",
+  "model": "pixel_pals_01:models/item/darkrai_s.obj",
+  "textures": {
+    "material_atlas_00016_1": "pixel_pals_01:block/darkrai_s",
+    "particle": "minecraft:item/acacia_boat"
+  }
+}

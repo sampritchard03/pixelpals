@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "Pixel Pals",
+    "icon": {
+      "value": "CUSTOM:PixelGrass"
+    },
+    "showSearch": false
+  }
+}

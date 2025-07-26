@@ -1,0 +1,255 @@
+{
+  "_fv": 79,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 370,
+    "height": 200,
+    "inventoryOffsetX": -4,
+    "inventoryOffsetY": 14,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:PokeballOccupied"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false,
+            "name": "StatusScreenSlotChange5"
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 73,
+          "y": 155,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:PokeballOccupied"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false,
+            "name": "StatusScreenSlotChange3"
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 73,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:PokeballOccupied"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false,
+            "name": "StatusScreenSlotChange0"
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 73,
+          "y": 40,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:PokeballOccupied"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false,
+            "name": "StatusScreenSlotChange6"
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 337,
+          "y": 155,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:PokeballOccupied"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false,
+            "name": "StatusScreenSlotChange4"
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 337,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:PokeballOccupied"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": false,
+            "name": "StatusScreenSlotChange2"
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 337,
+          "y": 40,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_view_slot_1",
+          "text": "Select Slot 1",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "StatusScreenSelectSlot1"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 39,
+          "y": 66,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_view_slot_2",
+          "text": "Select Slot 3",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "StatusScreenSelectSlot3"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 39,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_view_slot_3",
+          "text": "Select Slot 5",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "StatusScreenSelectSlot5"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 40,
+          "y": 181,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_select_slot_2",
+          "text": "Select Slot 2",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "StatusScreenSelectSlot2"
+          },
+          "width": 92,
+          "height": 20,
+          "x": 298,
+          "y": 66,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_select_slot_4",
+          "text": "Select Slot 4",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "StatusScreenSelectSlot4"
+          },
+          "width": 92,
+          "height": 20,
+          "x": 298,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_select_slot_6",
+          "text": "Select Slot 6",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "StatusScreenSelectSlot6"
+          },
+          "width": 92,
+          "height": 20,
+          "x": 298,
+          "y": 182,
+          "locked": false
+        }
+      },
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": {
+            "name": "StatusScreenGetSelectedEntityModel"
+          },
+          "scale": 100,
+          "rotationX": 0,
+          "followMouseMovement": true,
+          "x": 200,
+          "y": 58,
+          "locked": false
+        }
+      }
+    ],
+    "onTick": {
+      "name": "StatusScreenGuiThisGUIIsOpened"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

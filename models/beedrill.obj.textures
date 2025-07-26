@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "material_atlas_00001_1": "beedrill"
+      },
+      "name": "default"
+    }
+  }
+}

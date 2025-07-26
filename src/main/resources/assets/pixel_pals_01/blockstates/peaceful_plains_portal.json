@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "pixel_pals_01:block/peaceful_plains_portal_ew"
+    },
+    "axis=x": {
+      "model": "pixel_pals_01:block/peaceful_plains_portal_ns"
+    }
+  }
+}

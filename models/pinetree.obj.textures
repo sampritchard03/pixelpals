@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "jog_treeA": "pinetree2"
+      },
+      "name": "default"
+    }
+  }
+}

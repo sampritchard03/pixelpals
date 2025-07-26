@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "material_atlas_00012_1": "armaldo"
+      },
+      "name": "default"
+    }
+  }
+}

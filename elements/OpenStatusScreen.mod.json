@@ -1,0 +1,12 @@
+{
+  "_fv": 79,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "P",
+    "keyBindingName": "Open Status Screen",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "OpenStatusScreenOnKeyPressed"
+    }
+  }
+}

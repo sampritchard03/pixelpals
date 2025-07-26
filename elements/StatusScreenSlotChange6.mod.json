@@ -1,0 +1,8 @@
+{
+  "_fv": 79,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"160\" y=\"65\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"variables_set_itemstack\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"true\" has_entity=\"true\"></mutation><field name=\"VAR\">global:p6</field><value name=\"VAL\"><block type=\"empty_itemstack\"></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><next><block type=\"return_logic\"><value name=\"return\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value></block></next></block></next></block><block type=\"gui_set_items\" x=\"238\" y=\"258\"><value name=\"amount\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"empty_itemstack\"></block></value><value name=\"slotid\"><block type=\"math_number\"><field name=\"NUM\">2</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></xml>",
+    "skipDependencyNullCheck": false
+  }
+}

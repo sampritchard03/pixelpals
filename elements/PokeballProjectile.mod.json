@@ -1,0 +1,28 @@
+{
+  "_fv": 79,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Pokeball"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:throw"
+    },
+    "igniteFire": false,
+    "disableGravity": false,
+    "power": 1.0,
+    "damage": 0.0,
+    "knockback": 0,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": {
+      "name": "PokeballProjectileProjectileHitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "PokeballProjectileProjectileHitsLivingEntity"
+    }
+  }
+}

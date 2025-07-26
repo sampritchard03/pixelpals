@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "pixel_pals_01:peaceful_plains_biome",
+    "pixel_pals_01:autumn_zone"
+  ],
+  "spawners": {
+    "type": "pixel_pals_01:lvl_1_land_poke_generator",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

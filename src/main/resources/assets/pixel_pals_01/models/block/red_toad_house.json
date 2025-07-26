@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "solid",
+      "model": "pixel_pals_01:models/item/toadhouse.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "material_atlas_00001_1": "pixel_pals_01:block/toadhouse",
+        "particle": "pixel_pals_01:block/toadhouse"
+      }
+    }
+  },
+  "textures": {
+    "particle": "pixel_pals_01:block/toadhouse"
+  },
+  "render_type": "solid"
+}

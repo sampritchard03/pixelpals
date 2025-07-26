@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pixel_pals_01:block/farawaydirt",
+    "up": "pixel_pals_01:block/farawaygrass",
+    "north": "pixel_pals_01:block/farawaygrassside",
+    "east": "pixel_pals_01:block/farawaygrassside",
+    "south": "pixel_pals_01:block/farawaygrassside",
+    "west": "pixel_pals_01:block/farawaygrassside",
+    "particle": "pixel_pals_01:block/farawaydirt"
+  },
+  "render_type": "solid"
+}

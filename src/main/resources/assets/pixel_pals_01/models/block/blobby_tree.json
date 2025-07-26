@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "cutout",
+      "model": "pixel_pals_01:models/item/rdtree_block.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "Material": "pixel_pals_01:block/blobbytree",
+        "particle": "pixel_pals_01:block/blobbytree"
+      }
+    }
+  },
+  "textures": {
+    "particle": "pixel_pals_01:block/blobbytree"
+  },
+  "render_type": "cutout"
+}

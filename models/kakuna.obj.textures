@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "material_atlas_00020_1": "kakuna"
+      },
+      "name": "default"
+    }
+  }
+}

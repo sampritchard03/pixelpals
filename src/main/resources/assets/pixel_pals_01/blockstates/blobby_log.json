@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "pixel_pals_01:block/blobby_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "pixel_pals_01:block/blobby_log"
+    },
+    "axis=z": {
+      "model": "pixel_pals_01:block/blobby_log",
+      "x": 90
+    }
+  }
+}

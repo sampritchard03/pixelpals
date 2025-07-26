@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "pixel_pals_01:peaceful_plains_biome",
+  "features": "pixel_pals_01:tall_grass_feature",
+  "step": "surface_structures"
+}

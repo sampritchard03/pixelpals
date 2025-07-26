@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "pixel_pals_01:block/forest_floor"
+      },
+      {
+        "model": "pixel_pals_01:block/forest_floor",
+        "y": 90
+      },
+      {
+        "model": "pixel_pals_01:block/forest_floor",
+        "y": 180
+      },
+      {
+        "model": "pixel_pals_01:block/forest_floor",
+        "y": 270
+      }
+    ]
+  }
+}

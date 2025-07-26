@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "material_atlas_00014_1": "charmeleon_s"
+      },
+      "name": "default"
+    }
+  }
+}

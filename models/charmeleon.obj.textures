@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "material_atlas_00014_1": "atlas_00014"
+      },
+      "name": "default"
+    }
+  }
+}

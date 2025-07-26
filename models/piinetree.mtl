@@ -1,0 +1,9 @@
+newmtl jog_treeA
+illum 1
+Ns 250.0
+Ni 1.45
+Ka 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+map_Kd null
+map_d friends/modelresource/Pinetree/jog_treeA.png
+Ke 0.0 0.0 0.0

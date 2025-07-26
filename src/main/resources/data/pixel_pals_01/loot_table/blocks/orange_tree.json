@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "pixel_pals_01:blocks/orange_tree",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pixel_pals_01:blobby_log",
+          "functions": [
+            {
+              "count": 5,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

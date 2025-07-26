@@ -1,0 +1,109 @@
+{
+  "_fv": 79,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "species",
+          "name": "Species",
+          "width": 120,
+          "height": 20,
+          "x": 153,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "level",
+          "name": "Level",
+          "width": 120,
+          "height": 20,
+          "x": 155,
+          "y": 115,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_species_format_species",
+          "text": {
+            "fixedValue": "Species (format: \"species\")"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 146,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_level_format_integer",
+          "text": {
+            "fixedValue": "Level (format: integer)"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 157,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "Shiny",
+          "width": 120,
+          "height": 20,
+          "x": 154,
+          "y": 165,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_isshiny",
+          "text": {
+            "fixedValue": "IsShiny"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 194,
+          "y": 149,
+          "locked": false
+        }
+      }
+    ],
+    "onTick": {
+      "name": "PKHEXGuiWhileThisGUIIsOpenTick"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

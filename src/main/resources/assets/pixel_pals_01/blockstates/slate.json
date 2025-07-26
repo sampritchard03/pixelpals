@@ -1,0 +1,45 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "pixel_pals_01:block/slate"
+      },
+      {
+        "model": "pixel_pals_01:block/slate",
+        "x": 90
+      },
+      {
+        "model": "pixel_pals_01:block/slate",
+        "x": 180
+      },
+      {
+        "model": "pixel_pals_01:block/slate",
+        "x": 270
+      },
+      {
+        "model": "pixel_pals_01:block/slate",
+        "y": 90
+      },
+      {
+        "model": "pixel_pals_01:block/slate",
+        "y": 180
+      },
+      {
+        "model": "pixel_pals_01:block/slate",
+        "y": 270
+      },
+      {
+        "model": "pixel_pals_01:block/slate",
+        "z": 90
+      },
+      {
+        "model": "pixel_pals_01:block/slate",
+        "z": 180
+      },
+      {
+        "model": "pixel_pals_01:block/slate",
+        "z": 270
+      }
+    ]
+  }
+}

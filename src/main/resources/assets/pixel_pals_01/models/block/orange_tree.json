@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "cutout",
+      "model": "pixel_pals_01:models/item/orangetree.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "Material": "pixel_pals_01:block/orangetree",
+        "particle": "pixel_pals_01:block/orangetree"
+      }
+    }
+  },
+  "textures": {
+    "particle": "pixel_pals_01:block/orangetree"
+  },
+  "render_type": "cutout"
+}

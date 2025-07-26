@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "pixel_pals_01:blocks/pixel_grass",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pixel_pals_01:pixel_grass"
+        }
+      ]
+    }
+  ]
+}

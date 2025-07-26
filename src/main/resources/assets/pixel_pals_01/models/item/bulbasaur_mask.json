@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:obj",
+  "model": "pixel_pals_01:models/item/bulbassaur.obj",
+  "textures": {
+    "material_atlas_00001_1": "pixel_pals_01:block/bulbasaur",
+    "particle": "minecraft:item/acacia_boat"
+  }
+}
