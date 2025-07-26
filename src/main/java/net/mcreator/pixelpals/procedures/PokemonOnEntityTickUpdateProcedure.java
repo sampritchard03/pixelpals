@@ -102,6 +102,20 @@ public class PokemonOnEntityTickUpdateProcedure {
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.CHARIZARD_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 90);
 					break;
+				case "squirtle" :
+					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
+						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.SQUIRTLE_S_MASK.get()));
+					else
+						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.SQUIRTLE_MASK.get()));
+					entity.getEntityData().set(PokemonEntity.DATA_Scale, 35);
+					break;
+				case "wartortle" :
+					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
+						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.WARTORTLE_S_MASK.get()));
+					else
+						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.WARTORTLE_MASK.get()));
+					entity.getEntityData().set(PokemonEntity.DATA_Scale, 55);
+					break;					
 				case "blastoise" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.BLASTOISE_S_MASK.get()));

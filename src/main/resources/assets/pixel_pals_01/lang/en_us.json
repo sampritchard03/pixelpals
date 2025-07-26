@@ -119,5 +119,9 @@
   "item.pixel_pals_01.wild_wood": "Wild Wood Portal Igniter",
   "item.pixel_pals_01.soil": "Soil",
   "item.pixel_pals_01.forest_floor": "Forest Floor",
-  "biome.pixel_pals_01.brisk_backwoods": "Brisk Backwoods"
+  "biome.pixel_pals_01.brisk_backwoods": "Brisk Backwoods",
+  "item.pixel_pals_01.wartortle_mask": "Pidgey Mask",
+  "item.pixel_pals_01.wartortle_s_mask": "Pidgey Mask",
+  "item.pixel_pals_01.squirtle_mask": "Pidgey Mask",
+  "item.pixel_pals_01.squirtle_s_mask": "Pidgey Mask"
 }
