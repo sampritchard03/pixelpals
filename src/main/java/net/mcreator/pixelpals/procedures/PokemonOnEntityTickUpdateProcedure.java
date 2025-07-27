@@ -40,15 +40,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 				_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("pixel_pals_01:" + entity.getEntityData().get(PokemonEntity.DATA_Species))), SoundSource.NEUTRAL, 1, 1, false);
 			}
 		}
-		if (entity.getEntityData().get(PokemonEntity.DATA_SadTimer) > 0) {
-			entity.getEntityData().set(PokemonEntity.DATA_SadTimer, entity.getEntityData().get(PokemonEntity.DATA_SadTimer) - 1);
-			Entity _ent = entity;
-			_ent.setXRot(45);
-		}
 		if (findEntityInWorldRange(world, ServerPlayer.class, x, y, z, 128) == null) {
 			if (!entity.level().isClientSide())
 				entity.discard();
 		}
+		DespawnDuplicatePokemonProcedure.execute(world, x, y, z, entity);
+		UpdateSlotProcedure.execute(entity);
 	}
 
 	private static Entity findEntityInWorldRange(LevelAccessor world, Class<? extends Entity> clazz, double x, double y, double z, double range) {

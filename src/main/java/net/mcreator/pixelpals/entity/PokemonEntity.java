@@ -26,7 +26,6 @@ import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.TamableAnimal;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntitySpawnReason;
 import net.minecraft.world.entity.Entity;
@@ -44,28 +43,24 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.component.DataComponents;
 
-import net.mcreator.pixelpals.procedures.PokemonSadForgiveConditionProcedure;
 import net.mcreator.pixelpals.procedures.PokemonRightClickedOnEntityProcedure;
 import net.mcreator.pixelpals.procedures.PokemonOnEntityTickUpdateProcedure;
 import net.mcreator.pixelpals.procedures.PokemonOnEntityHurtProcedure;
-import net.mcreator.pixelpals.procedures.PokemonEntityDiesProcedure;
-import net.mcreator.pixelpals.init.PixelPals01ModItems;
 import net.mcreator.pixelpals.init.PixelPals01ModEntities;
 
 public class PokemonEntity extends TamableAnimal {
 	public static final EntityDataAccessor<Integer> DATA_Level = SynchedEntityData.defineId(PokemonEntity.class, EntityDataSerializers.INT);
 	public static final EntityDataAccessor<Integer> DATA_Scale = SynchedEntityData.defineId(PokemonEntity.class, EntityDataSerializers.INT);
 	public static final EntityDataAccessor<String> DATA_Species = SynchedEntityData.defineId(PokemonEntity.class, EntityDataSerializers.STRING);
-	public static final EntityDataAccessor<Integer> DATA_SadTimer = SynchedEntityData.defineId(PokemonEntity.class, EntityDataSerializers.INT);
 	public static final EntityDataAccessor<Integer> DATA_Shiny = SynchedEntityData.defineId(PokemonEntity.class, EntityDataSerializers.INT);
 	public static final EntityDataAccessor<Integer> DATA_ID = SynchedEntityData.defineId(PokemonEntity.class, EntityDataSerializers.INT);
+	public static final EntityDataAccessor<Integer> DATA_Slot = SynchedEntityData.defineId(PokemonEntity.class, EntityDataSerializers.INT);
 
 	public PokemonEntity(EntityType<PokemonEntity> type, Level world) {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
 		setPersistenceRequired();
-		this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.PIDGEY_MASK.get()));
 	}
 
 	@Override
@@ -74,9 +69,9 @@ public class PokemonEntity extends TamableAnimal {
 		builder.define(DATA_Level, 1);
 		builder.define(DATA_Scale, 2);
 		builder.define(DATA_Species, "");
-		builder.define(DATA_SadTimer, 0);
 		builder.define(DATA_Shiny, 0);
 		builder.define(DATA_ID, 0);
+		builder.define(DATA_Slot, 0);
 	}
 
 	@Override
@@ -87,95 +82,14 @@ public class PokemonEntity extends TamableAnimal {
 			protected boolean canPerformAttack(LivingEntity entity) {
 				return this.isTimeToAttack() && this.mob.distanceToSqr(entity) < (this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth()) && this.mob.getSensing().hasLineOfSight(entity);
 			}
-
-			@Override
-			public boolean canUse() {
-				double x = PokemonEntity.this.getX();
-				double y = PokemonEntity.this.getY();
-				double z = PokemonEntity.this.getZ();
-				Entity entity = PokemonEntity.this;
-				Level world = PokemonEntity.this.level();
-				return super.canUse() && PokemonSadForgiveConditionProcedure.execute(entity);
-			}
-
-			@Override
-			public boolean canContinueToUse() {
-				double x = PokemonEntity.this.getX();
-				double y = PokemonEntity.this.getY();
-				double z = PokemonEntity.this.getZ();
-				Entity entity = PokemonEntity.this;
-				Level world = PokemonEntity.this.level();
-				return super.canContinueToUse() && PokemonSadForgiveConditionProcedure.execute(entity);
-			}
-
 		});
 		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1));
-		this.targetSelector.addGoal(3, new HurtByTargetGoal(this) {
-			@Override
-			public boolean canUse() {
-				double x = PokemonEntity.this.getX();
-				double y = PokemonEntity.this.getY();
-				double z = PokemonEntity.this.getZ();
-				Entity entity = PokemonEntity.this;
-				Level world = PokemonEntity.this.level();
-				return super.canUse() && PokemonSadForgiveConditionProcedure.execute(entity);
-			}
-
-			@Override
-			public boolean canContinueToUse() {
-				double x = PokemonEntity.this.getX();
-				double y = PokemonEntity.this.getY();
-				double z = PokemonEntity.this.getZ();
-				Entity entity = PokemonEntity.this;
-				Level world = PokemonEntity.this.level();
-				return super.canContinueToUse() && PokemonSadForgiveConditionProcedure.execute(entity);
-			}
-		});
+		this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(4, new LookAtPlayerGoal(this, PokemonEntity.class, (float) 6));
 		this.goalSelector.addGoal(5, new LookAtPlayerGoal(this, Player.class, (float) 6));
 		this.goalSelector.addGoal(6, new FollowOwnerGoal(this, 1, (float) 5, (float) 2));
-		this.targetSelector.addGoal(7, new OwnerHurtTargetGoal(this) {
-			@Override
-			public boolean canUse() {
-				double x = PokemonEntity.this.getX();
-				double y = PokemonEntity.this.getY();
-				double z = PokemonEntity.this.getZ();
-				Entity entity = PokemonEntity.this;
-				Level world = PokemonEntity.this.level();
-				return super.canUse() && PokemonSadForgiveConditionProcedure.execute(entity);
-			}
-
-			@Override
-			public boolean canContinueToUse() {
-				double x = PokemonEntity.this.getX();
-				double y = PokemonEntity.this.getY();
-				double z = PokemonEntity.this.getZ();
-				Entity entity = PokemonEntity.this;
-				Level world = PokemonEntity.this.level();
-				return super.canContinueToUse() && PokemonSadForgiveConditionProcedure.execute(entity);
-			}
-		});
-		this.goalSelector.addGoal(8, new OwnerHurtByTargetGoal(this) {
-			@Override
-			public boolean canUse() {
-				double x = PokemonEntity.this.getX();
-				double y = PokemonEntity.this.getY();
-				double z = PokemonEntity.this.getZ();
-				Entity entity = PokemonEntity.this;
-				Level world = PokemonEntity.this.level();
-				return super.canUse() && PokemonSadForgiveConditionProcedure.execute(entity);
-			}
-
-			@Override
-			public boolean canContinueToUse() {
-				double x = PokemonEntity.this.getX();
-				double y = PokemonEntity.this.getY();
-				double z = PokemonEntity.this.getZ();
-				Entity entity = PokemonEntity.this;
-				Level world = PokemonEntity.this.level();
-				return super.canContinueToUse() && PokemonSadForgiveConditionProcedure.execute(entity);
-			}
-		});
+		this.targetSelector.addGoal(7, new OwnerHurtTargetGoal(this));
+		this.goalSelector.addGoal(8, new OwnerHurtByTargetGoal(this));
 		this.goalSelector.addGoal(9, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(10, new FloatGoal(this));
 	}
@@ -215,20 +129,14 @@ public class PokemonEntity extends TamableAnimal {
 	}
 
 	@Override
-	public void die(DamageSource source) {
-		super.die(source);
-		PokemonEntityDiesProcedure.execute(this);
-	}
-
-	@Override
 	public void addAdditionalSaveData(CompoundTag compound) {
 		super.addAdditionalSaveData(compound);
 		compound.putInt("DataLevel", this.entityData.get(DATA_Level));
 		compound.putInt("DataScale", this.entityData.get(DATA_Scale));
 		compound.putString("DataSpecies", this.entityData.get(DATA_Species));
-		compound.putInt("DataSadTimer", this.entityData.get(DATA_SadTimer));
 		compound.putInt("DataShiny", this.entityData.get(DATA_Shiny));
 		compound.putInt("DataID", this.entityData.get(DATA_ID));
+		compound.putInt("DataSlot", this.entityData.get(DATA_Slot));
 	}
 
 	@Override
@@ -240,12 +148,12 @@ public class PokemonEntity extends TamableAnimal {
 			this.entityData.set(DATA_Scale, compound.getInt("DataScale"));
 		if (compound.contains("DataSpecies"))
 			this.entityData.set(DATA_Species, compound.getString("DataSpecies"));
-		if (compound.contains("DataSadTimer"))
-			this.entityData.set(DATA_SadTimer, compound.getInt("DataSadTimer"));
 		if (compound.contains("DataShiny"))
 			this.entityData.set(DATA_Shiny, compound.getInt("DataShiny"));
 		if (compound.contains("DataID"))
 			this.entityData.set(DATA_ID, compound.getInt("DataID"));
+		if (compound.contains("DataSlot"))
+			this.entityData.set(DATA_Slot, compound.getInt("DataSlot"));
 	}
 
 	@Override

@@ -90,20 +90,6 @@
       "path": "~/Procedures"
     },
     {
-      "name": "Test",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test",
-      "metadata": {
-        "dependencies": [],
-        "files": [
-          "src/main/java/net/mcreator/pixelpals/procedures/TestProcedure.java"
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
       "name": "MachampMask",
       "type": "item",
       "compiles": true,
@@ -335,6 +321,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -615,45 +605,6 @@
         ]
       },
       "path": "~/GUIs"
-    },
-    {
-      "name": "PokemonEntityDies",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "pokemon_entity_dies",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/pixelpals/procedures/PokemonEntityDiesProcedure.java"
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "PokemonSadForgiveCondition",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pokemon_sad_forgive_condition",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/mcreator/pixelpals/procedures/PokemonSadForgiveConditionProcedure.java"
-        ]
-      },
-      "path": "~/Procedures"
     },
     {
       "name": "Lvl1LandPokeGenerator",
@@ -1882,6 +1833,95 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "Test2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pixelpals/procedures/Test2Procedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DespawnDuplicatePokemon",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "despawn_duplicate_pokemon",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pixelpals/procedures/DespawnDuplicatePokemonProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "UpdateSlot",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "update_slot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pixelpals/procedures/UpdateSlotProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [
@@ -2359,5 +2399,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.pixelpals"
   },
-  "mcreatorVersion": 202500227613
+  "mcreatorVersion": 202500228610
 }

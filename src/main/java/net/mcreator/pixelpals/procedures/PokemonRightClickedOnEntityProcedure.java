@@ -71,8 +71,6 @@ public class PokemonRightClickedOnEntityProcedure {
 						_level.sendParticles(ParticleTypes.ASH, x, y, z, 10, 2, 2, 2, 0);
 				}
 			}
-		} else if (entity.getEntityData().get(PokemonEntity.DATA_SadTimer) < 1) {
-
 		}
 	}
 }

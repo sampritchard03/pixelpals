@@ -28,7 +28,7 @@ public class Lvl1LandPokeGeneratorOnInitialEntitySpawnProcedure {
 		int level = (int) Math.floor(100 * Math.random()) + 1;
 		pokemon.getEntityData().set(PokemonEntity.DATA_Species, species);
 		pokemon.getEntityData().set(PokemonEntity.DATA_Level, level);
-		pokemon.getEntityData().set(PokemonEntity.DATA_ID, Math.floor(Math.random()*0xFFFFFFFF));
+		pokemon.getEntityData().set(PokemonEntity.DATA_ID, (int)Math.floor(Math.random()*0xFFFF));
 
 		//0.00012207
 		if (Math.random() < 0.1) pokemon.getEntityData().set(PokemonEntity.DATA_Shiny, 1);
