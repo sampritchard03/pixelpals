@@ -1,6 +1,0 @@
-newmtl material_atlas_00001_1
-illum 2
-Ns 250.0
-Ni 1.5
-map_Kd null
-map_d Atlas_00001.png

@@ -84,7 +84,7 @@
     },
     "useLootTableForDrops": false,
     "customDrop": {
-      "value": "CUSTOM:BlobbyLog"
+      "value": ""
     },
     "dropAmount": 20,
     "forceTicking": false,
@@ -102,7 +102,14 @@
     "fireSpreadSpeed": 60,
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
-    "canBePlacedOn": [],
+    "canBePlacedOn": [
+      {
+        "value": "CUSTOM:Soil"
+      },
+      {
+        "value": "CUSTOM:ForestFloor"
+      }
+    ],
     "isBonemealable": false,
     "frequencyOnChunks": 5,
     "generateFeature": false,

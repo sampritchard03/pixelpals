@@ -1,45 +1,7 @@
 {
   "variants": {
-    "": [
-      {
-        "model": "pixel_pals_01:block/beach_pebbles"
-      },
-      {
-        "model": "pixel_pals_01:block/beach_pebbles",
-        "x": 90
-      },
-      {
-        "model": "pixel_pals_01:block/beach_pebbles",
-        "x": 180
-      },
-      {
-        "model": "pixel_pals_01:block/beach_pebbles",
-        "x": 270
-      },
-      {
-        "model": "pixel_pals_01:block/beach_pebbles",
-        "y": 90
-      },
-      {
-        "model": "pixel_pals_01:block/beach_pebbles",
-        "y": 180
-      },
-      {
-        "model": "pixel_pals_01:block/beach_pebbles",
-        "y": 270
-      },
-      {
-        "model": "pixel_pals_01:block/beach_pebbles",
-        "z": 90
-      },
-      {
-        "model": "pixel_pals_01:block/beach_pebbles",
-        "z": 180
-      },
-      {
-        "model": "pixel_pals_01:block/beach_pebbles",
-        "z": 270
-      }
-    ]
+    "": {
+      "model": "pixel_pals_01:block/beach_pebbles"
+    }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pixel_pals_01:block/toad_house_model"
+    },
+    "facing=east": {
+      "model": "pixel_pals_01:block/toad_house_model",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pixel_pals_01:block/toad_house_model",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pixel_pals_01:block/toad_house_model",
+      "y": 270
+    }
+  }
+}

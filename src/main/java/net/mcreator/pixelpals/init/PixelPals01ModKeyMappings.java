@@ -15,6 +15,7 @@ import net.neoforged.api.distmarker.Dist;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.KeyMapping;
 
+import net.mcreator.pixelpals.network.SendOutPokemonMessage;
 import net.mcreator.pixelpals.network.OpenStatusScreenMessage;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
@@ -32,10 +33,24 @@ public class PixelPals01ModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
+	public static final KeyMapping SEND_OUT_POKEMON = new KeyMapping("key.pixel_pals_01.send_out_pokemon", GLFW.GLFW_KEY_R, "key.categories.gameplay") {
+		private boolean isDownOld = false;
+
+		@Override
+		public void setDown(boolean isDown) {
+			super.setDown(isDown);
+			if (isDownOld != isDown && isDown) {
+				PacketDistributor.sendToServer(new SendOutPokemonMessage(0, 0));
+				SendOutPokemonMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+			}
+			isDownOld = isDown;
+		}
+	};
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
 		event.register(OPEN_STATUS_SCREEN);
+		event.register(SEND_OUT_POKEMON);
 	}
 
 	@EventBusSubscriber({Dist.CLIENT})
@@ -44,6 +59,7 @@ public class PixelPals01ModKeyMappings {
 		public static void onClientTick(ClientTickEvent.Post event) {
 			if (Minecraft.getInstance().screen == null) {
 				OPEN_STATUS_SCREEN.consumeClick();
+				SEND_OUT_POKEMON.consumeClick();
 			}
 		}
 	}

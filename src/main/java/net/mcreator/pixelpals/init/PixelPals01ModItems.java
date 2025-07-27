@@ -125,6 +125,7 @@ public class PixelPals01ModItems {
 	public static final DeferredItem<Item> SQUIRTLE_S_MASK = register("squirtle_s_mask", SquirtleSMaskItem::new);
 	public static final DeferredItem<Item> BEACH_PEBBLES = block(PixelPals01ModBlocks.BEACH_PEBBLES, new Item.Properties().stacksTo(99));
 	public static final DeferredItem<Item> HAZY_HOLLOWS = register("hazy_hollows", HazyHollowsItem::new);
+	public static final DeferredItem<Item> TOAD_HOUSE_MODEL = block(PixelPals01ModBlocks.TOAD_HOUSE_MODEL);
 
 	// Start of user code block custom items
 	// End of user code block custom items

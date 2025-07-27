@@ -103,5 +103,7 @@
   "biome.pixel_pals_01.wild_wood": "Wild Wood",
   "item.pixel_pals_01.beach_pebbles": "Beach Pebbles",
   "item.pixel_pals_01.hazy_hollows": "Wild Wood Portal Igniter",
-  "biome.pixel_pals_01.pebble_pond": "Pebble Pond"
+  "biome.pixel_pals_01.pebble_pond": "Pebble Pond",
+  "key.pixel_pals_01.send_out_pokemon": "Send Out Selected Pokemon",
+  "item.pixel_pals_01.toad_house_model": "Toad House Model"
 }

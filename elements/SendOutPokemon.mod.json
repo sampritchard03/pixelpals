@@ -1,0 +1,12 @@
+{
+  "_fv": 79,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "R",
+    "keyBindingName": "Send Out Selected Pokemon",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "SendOutPokemonOnKeyPressed"
+    }
+  }
+}

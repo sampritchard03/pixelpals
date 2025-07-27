@@ -3,4 +3,4 @@ illum 1
 Ns 250.0
 Ni 1.45
 map_Kd null
-map_d friends/modelresource/Pinetree/jog_treeA.png
+map_d pinetree.png

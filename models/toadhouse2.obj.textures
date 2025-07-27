@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "Material": "yellowtree"
+        "material_atlas_00003_1": "toadhouse2"
       },
       "name": "default"
     }

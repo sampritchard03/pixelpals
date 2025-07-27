@@ -21,7 +21,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.pixelpals.procedures.PokeballProjectileProjectileHitsBlockProcedure;
+import net.mcreator.pixelpals.procedures.PokeballOccupiedProjectileProjectileHitsBlockProcedure;
 import net.mcreator.pixelpals.init.PixelPals01ModItems;
 import net.mcreator.pixelpals.init.PixelPals01ModEntities;
 
@@ -85,7 +85,7 @@ public class PokeballOccupiedProjectileEntity extends AbstractArrow implements I
 	@Override
 	public void onHitBlock(BlockHitResult blockHitResult) {
 		super.onHitBlock(blockHitResult);
-		PokeballProjectileProjectileHitsBlockProcedure.execute();
+		PokeballOccupiedProjectileProjectileHitsBlockProcedure.execute(this.level(), blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ(), this.getOwner());
 	}
 
 	@Override

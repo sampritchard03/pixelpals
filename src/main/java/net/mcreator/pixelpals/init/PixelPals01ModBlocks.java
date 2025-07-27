@@ -9,6 +9,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.pixelpals.block.ToadHouseModelBlock;
 import net.mcreator.pixelpals.block.SoilBlock;
 import net.mcreator.pixelpals.block.SlateBlock;
 import net.mcreator.pixelpals.block.PineTreeBlock;
@@ -27,6 +28,7 @@ public class PixelPals01ModBlocks {
 	public static final DeferredBlock<Block> FOREST_FLOOR = register("forest_floor", ForestFloorBlock::new);
 	public static final DeferredBlock<Block> BEACH_PEBBLES = register("beach_pebbles", BeachPebblesBlock::new);
 	public static final DeferredBlock<Block> HAZY_HOLLOWS_PORTAL = register("hazy_hollows_portal", HazyHollowsPortalBlock::new);
+	public static final DeferredBlock<Block> TOAD_HOUSE_MODEL = register("toad_house_model", ToadHouseModelBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
