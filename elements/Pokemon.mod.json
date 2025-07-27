@@ -159,18 +159,6 @@
         "name": "ID",
         "type": "integer",
         "value": 0
-      },
-      {
-        "min": -2147483648,
-        "max": 2147483647,
-        "name": "Initialized",
-        "type": "integer",
-        "value": 0
-      },
-      {
-        "name": "Owner",
-        "type": "string",
-        "value": ""
       }
     ],
     "whenMobDies": {
@@ -208,11 +196,7 @@
     "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:PeacefulPlainsBiome"
-      }
-    ],
+    "restrictionBiomes": [],
     "spawnInDungeons": false,
     "raidSpawnsCount": [
       4,

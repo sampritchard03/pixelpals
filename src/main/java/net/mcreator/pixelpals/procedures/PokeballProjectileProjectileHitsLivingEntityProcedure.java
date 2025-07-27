@@ -33,6 +33,11 @@ public class PokeballProjectileProjectileHitsLivingEntityProcedure {
 			final double _tagValue = (entity instanceof PokemonEntity _datEntI ? _datEntI.getEntityData().get(PokemonEntity.DATA_Shiny) : 0);
 			CustomData.update(DataComponents.CUSTOM_DATA, itemStack, tag -> tag.putDouble(_tagName, _tagValue));
 		}
+		{
+			final String _tagName = "ID";
+			final double _tagValue = (entity instanceof PokemonEntity _datEntI ? _datEntI.getEntityData().get(PokemonEntity.DATA_ID) : 0);
+			CustomData.update(DataComponents.CUSTOM_DATA, itemStack, tag -> tag.putDouble(_tagName, _tagValue));
+		}
 		if (world instanceof ServerLevel _level) {
 			ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, itemStack);
 			entityToSpawn.setPickUpDelay(10);

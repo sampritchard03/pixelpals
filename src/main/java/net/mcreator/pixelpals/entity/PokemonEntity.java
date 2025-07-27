@@ -59,8 +59,6 @@ public class PokemonEntity extends TamableAnimal {
 	public static final EntityDataAccessor<Integer> DATA_SadTimer = SynchedEntityData.defineId(PokemonEntity.class, EntityDataSerializers.INT);
 	public static final EntityDataAccessor<Integer> DATA_Shiny = SynchedEntityData.defineId(PokemonEntity.class, EntityDataSerializers.INT);
 	public static final EntityDataAccessor<Integer> DATA_ID = SynchedEntityData.defineId(PokemonEntity.class, EntityDataSerializers.INT);
-	public static final EntityDataAccessor<Integer> DATA_Initialized = SynchedEntityData.defineId(PokemonEntity.class, EntityDataSerializers.INT);
-	public static final EntityDataAccessor<String> DATA_Owner = SynchedEntityData.defineId(PokemonEntity.class, EntityDataSerializers.STRING);
 
 	public PokemonEntity(EntityType<PokemonEntity> type, Level world) {
 		super(type, world);
@@ -79,8 +77,6 @@ public class PokemonEntity extends TamableAnimal {
 		builder.define(DATA_SadTimer, 0);
 		builder.define(DATA_Shiny, 0);
 		builder.define(DATA_ID, 0);
-		builder.define(DATA_Initialized, 0);
-		builder.define(DATA_Owner, "");
 	}
 
 	@Override
@@ -233,8 +229,6 @@ public class PokemonEntity extends TamableAnimal {
 		compound.putInt("DataSadTimer", this.entityData.get(DATA_SadTimer));
 		compound.putInt("DataShiny", this.entityData.get(DATA_Shiny));
 		compound.putInt("DataID", this.entityData.get(DATA_ID));
-		compound.putInt("DataInitialized", this.entityData.get(DATA_Initialized));
-		compound.putString("DataOwner", this.entityData.get(DATA_Owner));
 	}
 
 	@Override
@@ -252,10 +246,6 @@ public class PokemonEntity extends TamableAnimal {
 			this.entityData.set(DATA_Shiny, compound.getInt("DataShiny"));
 		if (compound.contains("DataID"))
 			this.entityData.set(DATA_ID, compound.getInt("DataID"));
-		if (compound.contains("DataInitialized"))
-			this.entityData.set(DATA_Initialized, compound.getInt("DataInitialized"));
-		if (compound.contains("DataOwner"))
-			this.entityData.set(DATA_Owner, compound.getString("DataOwner"));
 	}
 
 	@Override
