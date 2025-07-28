@@ -36,6 +36,7 @@ public class PixelPals01ModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(PixelPals01ModItems.POKEMON_SPAWN_EGG.get());
 			tabData.accept(PixelPals01ModItems.LVL_1_LAND_POKE_GENERATOR_SPAWN_EGG.get());
+			tabData.accept(PixelPals01ModItems.CHEST_ENTITY_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(PixelPals01ModBlocks.PINE_TREE.get().asItem());
 		}

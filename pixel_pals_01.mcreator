@@ -1922,6 +1922,101 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "RedChestMask",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_chest_mask",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pixel_pals_01/items/red_chest_mask.json",
+          "src/main/resources/assets/pixel_pals_01/models/item/red_chest_mask.json",
+          "src/main/java/net/mcreator/pixelpals/item/RedChestMaskItem.java"
+        ]
+      },
+      "path": "~/Masks"
+    },
+    {
+      "name": "ChestEntity",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chest_entity",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pixel_pals_01/items/chest_entity_spawn_egg.json",
+          "src/main/java/net/mcreator/pixelpals/client/renderer/ChestEntityRenderer.java",
+          "src/main/java/net/mcreator/pixelpals/entity/ChestEntityEntity.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "BrownChestMask",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_chest_mask",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pixel_pals_01/items/brown_chest_mask.json",
+          "src/main/resources/assets/pixel_pals_01/models/item/brown_chest_mask.json",
+          "src/main/java/net/mcreator/pixelpals/item/BrownChestMaskItem.java"
+        ]
+      },
+      "path": "~/Masks"
+    },
+    {
+      "name": "ChestEntityOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chest_entity_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pixelpals/procedures/ChestEntityOnInitialEntitySpawnProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ToadHouseModelOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toad_house_model_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pixelpals/procedures/ToadHouseModelOnTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [
@@ -2311,7 +2406,11 @@
       "item.pixel_pals_01.hazy_hollows": "Wild Wood Portal Igniter",
       "biome.pixel_pals_01.pebble_pond": "Pebble Pond",
       "key.pixel_pals_01.send_out_pokemon": "Send Out Selected Pokemon",
-      "item.pixel_pals_01.toad_house_model": "Toad House Model"
+      "item.pixel_pals_01.toad_house_model": "Toad House Model",
+      "item.pixel_pals_01.red_chest_mask": "Pidgey Mask",
+      "entity.pixel_pals_01.chest_entity": "Chest Entity",
+      "item.pixel_pals_01.chest_entity_spawn_egg": "Chest Entity Spawn Egg",
+      "item.pixel_pals_01.brown_chest_mask": "Pidgey Mask"
     }
   },
   "metadata": {

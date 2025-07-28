@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "material_atlas_00004_1": "chest"
+      },
+      "name": "default"
+    }
+  }
+}
