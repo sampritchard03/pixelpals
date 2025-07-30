@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "pixel_pals_01:block/transblock",
+    "particle": "pixel_pals_01:block/transblock"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "pixel_pals_01:block/dark_brown_stripe"
+      },
+      {
+        "model": "pixel_pals_01:block/dark_brown_stripe",
+        "y": 90
+      },
+      {
+        "model": "pixel_pals_01:block/dark_brown_stripe",
+        "y": 180
+      },
+      {
+        "model": "pixel_pals_01:block/dark_brown_stripe",
+        "y": 270
+      }
+    ]
+  }
+}

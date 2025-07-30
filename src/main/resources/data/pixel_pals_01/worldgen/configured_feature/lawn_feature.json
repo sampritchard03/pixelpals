@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 1000000,
+    "xz_spread": 16,
+    "y_spread": 10,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "pixel_pals_01:burnt_lawn_generator"
+            }
+          },
+          "schedule_tick": true
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "pixel_pals_01:light_brown_stripe"
+          }
+        }
+      ]
+    }
+  }
+}

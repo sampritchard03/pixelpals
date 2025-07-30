@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "pixel_pals_01:block/drysoil",
+    "top": "pixel_pals_01:block/burntgrasslight",
+    "side": "pixel_pals_01:block/burntgrasslight_side",
+    "overlay": "pixel_pals_01:block/burntgrasslight_side",
+    "particle": "pixel_pals_01:block/drysoil"
+  },
+  "render_type": "solid"
+}

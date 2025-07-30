@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Lvl 1 Land Poke Generator",
+    "mobName": "Chest Entity",
     "mobLabel": "",
     "mobModelName": "Biped",
     "mobModelTexture": "transentity.png",
@@ -23,9 +23,9 @@
     },
     "modelLayers": [],
     "animations": [],
-    "modelWidth": 0.6,
+    "modelWidth": 1.8,
     "modelHeight": 1.8,
-    "modelShadowSize": 0.5,
+    "modelShadowSize": 1.8,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
@@ -51,7 +51,7 @@
       "value": ""
     },
     "equipmentHelmet": {
-      "value": ""
+      "value": "CUSTOM:BrownChestMask"
     },
     "equipmentBody": {
       "value": ""
@@ -121,11 +121,11 @@
     },
     "entityDataEntries": [],
     "onMobTickUpdate": {
-      "name": "Lvl1LandPokeGeneratorOnInitialEntitySpawn"
+      "name": "ChestEntityOnInitialEntitySpawn"
     },
     "hasAI": false,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"look_around\"><field name=\"condition\">null,null</field></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],
@@ -136,26 +136,13 @@
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
-    "spawnThisMob": true,
+    "spawnThisMob": false,
     "doesDespawnWhenIdle": true,
-    "spawningCondition": {
-      "name": "Lvl1LandPokeGeneratorNaturalEntitySpawningCondition"
-    },
-    "spawningProbability": 2,
-    "mobSpawningType": "ambient",
-    "minNumberOfMobsPerGroup": 1,
-    "maxNumberOfMobsPerGroup": 1,
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:WildWood"
-      },
-      {
-        "value": "CUSTOM:PebblePond"
-      },
-      {
-        "value": "CUSTOM:SunburntStripes"
-      }
-    ],
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [],
     "spawnInDungeons": false,
     "raidSpawnsCount": [
       4,
