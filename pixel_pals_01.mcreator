@@ -2017,6 +2017,168 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "ToadHouseModelOnPlace",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toad_house_model_on_place",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pixelpals/procedures/ToadHouseModelOnPlaceProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DrySoil",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_soil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pixel_pals_01/items/dry_soil.json",
+          "src/main/java/net/mcreator/pixelpals/block/DrySoilBlock.java",
+          "src/main/resources/data/pixel_pals_01/loot_table/blocks/dry_soil.json",
+          "src/main/resources/assets/pixel_pals_01/models/item/dry_soil.json",
+          "src/main/resources/assets/pixel_pals_01/models/block/dry_soil.json",
+          "src/main/resources/assets/pixel_pals_01/blockstates/dry_soil.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BurntLawnGenerator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burnt_lawn_generator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pixel_pals_01/blockstates/burnt_lawn_generator.json",
+          "src/main/resources/assets/pixel_pals_01/models/block/burnt_lawn_generator.json",
+          "src/main/java/net/mcreator/pixelpals/block/BurntLawnGeneratorBlock.java",
+          "src/main/resources/data/pixel_pals_01/loot_table/blocks/burnt_lawn_generator.json",
+          "src/main/resources/assets/pixel_pals_01/models/item/burnt_lawn_generator.json",
+          "src/main/resources/assets/pixel_pals_01/items/burnt_lawn_generator.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DarkBrownStripe",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dark_brown_stripe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pixel_pals_01/models/item/dark_brown_stripe.json",
+          "src/main/java/net/mcreator/pixelpals/block/DarkBrownStripeBlock.java",
+          "src/main/resources/data/pixel_pals_01/loot_table/blocks/dark_brown_stripe.json",
+          "src/main/resources/assets/pixel_pals_01/models/block/dark_brown_stripe.json",
+          "src/main/resources/assets/pixel_pals_01/blockstates/dark_brown_stripe.json",
+          "src/main/resources/assets/pixel_pals_01/items/dark_brown_stripe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LightBrownStripe",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "light_brown_stripe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pixelpals/block/LightBrownStripeBlock.java",
+          "src/main/resources/assets/pixel_pals_01/blockstates/light_brown_stripe.json",
+          "src/main/resources/data/pixel_pals_01/loot_table/blocks/light_brown_stripe.json",
+          "src/main/resources/assets/pixel_pals_01/models/item/light_brown_stripe.json",
+          "src/main/resources/assets/pixel_pals_01/items/light_brown_stripe.json",
+          "src/main/resources/assets/pixel_pals_01/models/block/light_brown_stripe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SunburntStripes",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunburnt_stripes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pixel_pals_01/worldgen/biome/sunburnt_stripes.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "LawnFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lawn_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pixel_pals_01/worldgen/configured_feature/lawn_feature.json",
+          "src/main/resources/data/pixel_pals_01/neoforge/biome_modifier/lawn_feature_biome_modifier.json",
+          "src/main/resources/data/pixel_pals_01/worldgen/placed_feature/lawn_feature.json"
+        ]
+      },
+      "path": "~/Features"
+    },
+    {
+      "name": "BurntLawnGeneratorBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burnt_lawn_generator_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pixelpals/procedures/BurntLawnGeneratorBlockAddedProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [
@@ -2291,6 +2453,10 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:LightBrownStripe",
+      "~CUSTOM:SparseLawn",
+      "~CUSTOM:BurntLawnGenerator",
+      "~CUSTOM:DrySoil",
       "~CUSTOM:Slate",
       "~CUSTOM:BeachPebbles",
       "~CUSTOM:ForestFloor",
@@ -2410,7 +2576,12 @@
       "item.pixel_pals_01.red_chest_mask": "Pidgey Mask",
       "entity.pixel_pals_01.chest_entity": "Chest Entity",
       "item.pixel_pals_01.chest_entity_spawn_egg": "Chest Entity Spawn Egg",
-      "item.pixel_pals_01.brown_chest_mask": "Pidgey Mask"
+      "item.pixel_pals_01.brown_chest_mask": "Pidgey Mask",
+      "item.pixel_pals_01.dry_soil": "Dry Soil",
+      "item.pixel_pals_01.burnt_lawn_generator": "Burnt Lawn Generator",
+      "item.pixel_pals_01.dark_brown_stripe": "Dark Brown Stripe",
+      "item.pixel_pals_01.light_brown_stripe": "Light Brown Stripe",
+      "biome.pixel_pals_01.sunburnt_stripes": "Sunburnt Stripes"
     }
   },
   "metadata": {

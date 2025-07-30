@@ -141,16 +141,19 @@
     "spawningCondition": {
       "name": "Lvl1LandPokeGeneratorNaturalEntitySpawningCondition"
     },
-    "spawningProbability": 10,
+    "spawningProbability": 2,
     "mobSpawningType": "ambient",
     "minNumberOfMobsPerGroup": 1,
-    "maxNumberOfMobsPerGroup": 2,
+    "maxNumberOfMobsPerGroup": 1,
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:PeacefulPlainsBiome"
+        "value": "CUSTOM:WildWood"
       },
       {
-        "value": "CUSTOM:AutumnZone"
+        "value": "CUSTOM:PebblePond"
+      },
+      {
+        "value": "CUSTOM:SunburntStripes"
       }
     ],
     "spawnInDungeons": false,

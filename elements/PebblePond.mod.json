@@ -61,7 +61,7 @@
     },
     "genContinentalness": {
       "min": -1.0,
-      "max": -0.11
+      "max": -0.13
     },
     "genErosion": {
       "min": -1.0,
@@ -108,16 +108,6 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": [
-      {
-        "entity": {
-          "value": "CUSTOM:Lvl1LandPokeGenerator"
-        },
-        "minGroup": 1,
-        "maxGroup": 1,
-        "weight": 2,
-        "spawnType": "ambient"
-      }
-    ]
+    "spawnEntries": []
   }
 }

@@ -2,22 +2,22 @@
   "_fv": 79,
   "_type": "biome",
   "definition": {
-    "name": "Wild Wood",
+    "name": "Sunburnt Stripes",
     "groundBlock": {
-      "value": "CUSTOM:ForestFloor"
+      "value": "CUSTOM:LightBrownStripe"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:Soil"
+      "value": "CUSTOM:DrySoil"
     },
     "underwaterBlock": {
       "value": "CUSTOM:BeachPebbles"
     },
     "airColor": {
-      "value": -3682087,
+      "value": -1908547,
       "falpha": 0.0
     },
     "fogColor": {
-      "value": -3682087,
+      "value": -1908803,
       "falpha": 0.0
     },
     "waterColor": {
@@ -52,12 +52,12 @@
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": -1.0,
-      "max": 0.55
+      "min": 0.55,
+      "max": 1.0
     },
     "genHumidity": {
-      "min": 0.0,
-      "max": 1.0
+      "min": -1.0,
+      "max": 0.0
     },
     "genContinentalness": {
       "min": -0.13,

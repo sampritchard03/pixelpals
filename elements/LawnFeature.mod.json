@@ -1,0 +1,14 @@
+{
+  "_fv": 79,
+  "_type": "feature",
+  "definition": {
+    "skipPlacement": false,
+    "generationStep": "SURFACE_STRUCTURES",
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SunburntStripes"
+      }
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_replace_sphere\" x=\"375\" y=\"-158\"><value name=\"targetState\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:SparseLawn</field></block></value><value name=\"newState\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:BurntLawnGenerator</field></block></value><value name=\"radius\"><block type=\"int_provider_constant\"><field name=\"value\">5</field></block></value></block><block type=\"feature_container\" deletable=\"false\" x=\"74\" y=\"-31\"><value name=\"feature\"><block type=\"feature_random_patch_simple\"><field name=\"tries\">1000000</field><field name=\"xzSpread\">16</field><field name=\"ySpread\">10</field><field name=\"schedule_tick\">TRUE</field><value name=\"block\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:BurntLawnGenerator</field></block></value><value name=\"condition\"><block type=\"block_predicate_matching_blocks\"><field name=\"x\">0</field><field name=\"y\">0</field><field name=\"z\">0</field><value name=\"blockSet\"><block type=\"block_holderset_list\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"1\"></mutation><field name=\"block0\">CUSTOM:LightBrownStripe</field></block></value></block></value></block></value><next><block type=\"placement_heightmap\"><field name=\"heightmap\">OCEAN_FLOOR_WG</field><next><block type=\"placement_biome_filter\"></block></next></block></next></block><block type=\"placement_in_square\" x=\"45\" y=\"316\"></block><block type=\"placement_noise_based_count\" x=\"200\" y=\"416\"><field name=\"ratio\">1</field><field name=\"factor\">200</field><field name=\"offset\">0</field></block></xml>"
+  }
+}

@@ -13,14 +13,7 @@
   "spawners": {
     "monster": [],
     "creature": [],
-    "ambient": [
-      {
-        "type": "pixel_pals_01:lvl_1_land_poke_generator",
-        "weight": 2,
-        "minCount": 1,
-        "maxCount": 1
-      }
-    ],
+    "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],
     "water_creature": [],

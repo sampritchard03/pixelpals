@@ -131,6 +131,10 @@ public class PixelPals01ModItems {
 	public static final DeferredItem<Item> RED_CHEST_MASK = register("red_chest_mask", RedChestMaskItem::new);
 	public static final DeferredItem<Item> CHEST_ENTITY_SPAWN_EGG = register("chest_entity_spawn_egg", properties -> new SpawnEggItem(PixelPals01ModEntities.CHEST_ENTITY.get(), properties));
 	public static final DeferredItem<Item> BROWN_CHEST_MASK = register("brown_chest_mask", BrownChestMaskItem::new);
+	public static final DeferredItem<Item> DRY_SOIL = block(PixelPals01ModBlocks.DRY_SOIL, new Item.Properties().stacksTo(99));
+	public static final DeferredItem<Item> BURNT_LAWN_GENERATOR = block(PixelPals01ModBlocks.BURNT_LAWN_GENERATOR);
+	public static final DeferredItem<Item> DARK_BROWN_STRIPE = block(PixelPals01ModBlocks.DARK_BROWN_STRIPE, new Item.Properties().stacksTo(99));
+	public static final DeferredItem<Item> LIGHT_BROWN_STRIPE = block(PixelPals01ModBlocks.LIGHT_BROWN_STRIPE, new Item.Properties().stacksTo(99));
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "pixel_pals_01:sunburnt_stripes",
+  "features": "pixel_pals_01:lawn_feature",
+  "step": "surface_structures"
+}

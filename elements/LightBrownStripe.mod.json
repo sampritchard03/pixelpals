@@ -2,15 +2,15 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "toadhouse2",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
+    "texture": "drysoil",
+    "textureTop": "burntgrasslight",
+    "textureLeft": "burntgrasslight_side",
+    "textureFront": "burntgrasslight_side",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 3,
-    "customModelName": "toadhouse2:default",
-    "rotationMode": 1,
+    "renderType": 14,
+    "customModelName": "Grass block",
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -20,14 +20,14 @@
     "blockSetType": "OAK",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
         "mx": 0.0,
-        "my": 8.0,
+        "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
         "My": 16.0,
@@ -36,31 +36,35 @@
       }
     ],
     "customProperties": [],
-    "name": "Toad House Model",
+    "name": "Light Brown Stripe",
     "specialInformation": {
       "fixedValue": []
     },
     "hardness": 1.0,
-    "resistance": 10.0,
+    "resistance": 5.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "hasBlockItem": true,
-    "maxStackSize": 64,
+    "maxStackSize": 99,
     "rarity": "COMMON",
     "immuneToFire": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:PixelPalsTab"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
-    "dropAmount": 0,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
+    "plantsGrowOn": true,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
-    "tickRate": 1,
+    "lightOpacity": 15,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -127,12 +131,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onBlockAdded": {
-      "name": "ToadHouseModelOnPlace"
-    },
-    "onTickUpdate": {
-      "name": "ToadHouseModelOnTickUpdate"
-    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

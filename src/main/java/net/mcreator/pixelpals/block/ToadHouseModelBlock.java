@@ -21,6 +21,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.pixelpals.procedures.ToadHouseModelOnTickUpdateProcedure;
+import net.mcreator.pixelpals.procedures.ToadHouseModelOnPlaceProcedure;
 
 public class ToadHouseModelBlock extends Block {
 	public static final EnumProperty<Direction> FACING = HorizontalDirectionalBlock.FACING;
@@ -78,6 +79,7 @@ public class ToadHouseModelBlock extends Block {
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
 		world.scheduleTick(pos, this, 1);
+		ToadHouseModelOnPlaceProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override

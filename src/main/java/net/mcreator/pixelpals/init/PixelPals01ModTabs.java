@@ -29,6 +29,9 @@ public class PixelPals01ModTabs {
 				tabData.accept(PixelPals01ModBlocks.SOIL.get().asItem());
 				tabData.accept(PixelPals01ModBlocks.FOREST_FLOOR.get().asItem());
 				tabData.accept(PixelPals01ModBlocks.BEACH_PEBBLES.get().asItem());
+				tabData.accept(PixelPals01ModBlocks.DRY_SOIL.get().asItem());
+				tabData.accept(PixelPals01ModBlocks.DARK_BROWN_STRIPE.get().asItem());
+				tabData.accept(PixelPals01ModBlocks.LIGHT_BROWN_STRIPE.get().asItem());
 			}).build());
 
 	@SubscribeEvent

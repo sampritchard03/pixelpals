@@ -109,5 +109,10 @@
   "item.pixel_pals_01.red_chest_mask": "Pidgey Mask",
   "entity.pixel_pals_01.chest_entity": "Chest Entity",
   "item.pixel_pals_01.chest_entity_spawn_egg": "Chest Entity Spawn Egg",
-  "item.pixel_pals_01.brown_chest_mask": "Pidgey Mask"
+  "item.pixel_pals_01.brown_chest_mask": "Pidgey Mask",
+  "item.pixel_pals_01.dry_soil": "Dry Soil",
+  "item.pixel_pals_01.burnt_lawn_generator": "Burnt Lawn Generator",
+  "item.pixel_pals_01.dark_brown_stripe": "Dark Brown Stripe",
+  "item.pixel_pals_01.light_brown_stripe": "Light Brown Stripe",
+  "biome.pixel_pals_01.sunburnt_stripes": "Sunburnt Stripes"
 }
