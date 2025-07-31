@@ -54,6 +54,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 
 	public static Entity refreshSpecies(Entity entity, LevelAccessor world) {
 		Entity _entity = entity;
+		int bHp;
+		int bAtk
+		int bDef
+		int bSpAtk
+		int bSpDef
+		int bSpe
 		if (_entity instanceof LivingEntity _living) {
 			switch (entity.getEntityData().get(PokemonEntity.DATA_Species)) {
 				default :
@@ -66,6 +72,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.BULBASAUR_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 35);
+					bHp = 45;
+					bAtk = 49;
+					bDef = 49;
+					bSpAtk = 65;
+					bSpDef = 65;
+					bSpe = 45;
 					break;
 				case "ivysaur" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
@@ -73,6 +85,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.IVYSAUR_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 55);
+					bHp = 60;
+					bAtk = 62;
+					bDef = 63;
+					bSpAtk = 80;
+					bSpDef = 80;
+					bSpe = 60;					
 					break;
 				case "venusaur" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
@@ -80,6 +98,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.VENUSAUR_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 90);
+					bHp = 80;
+					bAtk = 82;
+					bDef = 83;
+					bSpAtk = 100;
+					bSpDef = 100;
+					bSpe = 80;	
 					break;
 				case "charmander" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
@@ -87,6 +111,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.CHARMANDER_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 35);
+					bHp = 39;
+					bAtk = 52;
+					bDef = 43;
+					bSpAtk = 60;
+					bSpDef = 50;
+					bSpe = 65;	
 					break;
 				case "charmeleon" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
@@ -94,6 +124,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.CHARMELEON_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 55);
+					bHp = 58;
+					bAtk = 64;
+					bDef = 58;
+					bSpAtk = 80;
+					bSpDef = 65;
+					bSpe = 80;	
 					break;
 				case "charizard" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
@@ -101,6 +137,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.CHARIZARD_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 90);
+					bHp = 78;
+					bAtk = 84;
+					bDef = 78;
+					bSpAtk = 109;
+					bSpDef = 85;
+					bSpe = 100;	
 					break;
 				case "squirtle" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
@@ -108,6 +150,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.SQUIRTLE_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 35);
+					bHp = 44;
+					bAtk = 48;
+					bDef = 65;
+					bSpAtk = 50;
+					bSpDef = 64;
+					bSpe = 43;	
 					break;
 				case "wartortle" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
@@ -115,6 +163,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.WARTORTLE_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 55);
+					bHp = 59;
+					bAtk = 63;
+					bDef = 80;
+					bSpAtk = 65;
+					bSpDef = 80;
+					bSpe = 58;	
 					break;
 				case "blastoise" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
@@ -122,6 +176,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.BLASTOISE_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 90);
+					bHp = 79;
+					bAtk = 83;
+					bDef = 100;
+					bSpAtk = 85;
+					bSpDef = 105;
+					bSpe = 78;	
 					break;
 				case "caterpie" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
