@@ -13,12 +13,8 @@ import net.mcreator.pixelpals.block.ToadHouseModelBlock;
 import net.mcreator.pixelpals.block.SoilBlock;
 import net.mcreator.pixelpals.block.SlateBlock;
 import net.mcreator.pixelpals.block.PineTreeBlock;
-import net.mcreator.pixelpals.block.LightBrownStripeBlock;
 import net.mcreator.pixelpals.block.HazyHollowsPortalBlock;
 import net.mcreator.pixelpals.block.ForestFloorBlock;
-import net.mcreator.pixelpals.block.DrySoilBlock;
-import net.mcreator.pixelpals.block.DarkBrownStripeBlock;
-import net.mcreator.pixelpals.block.BurntLawnGeneratorBlock;
 import net.mcreator.pixelpals.block.BeachPebblesBlock;
 import net.mcreator.pixelpals.PixelPals01Mod;
 
@@ -33,10 +29,6 @@ public class PixelPals01ModBlocks {
 	public static final DeferredBlock<Block> BEACH_PEBBLES = register("beach_pebbles", BeachPebblesBlock::new);
 	public static final DeferredBlock<Block> HAZY_HOLLOWS_PORTAL = register("hazy_hollows_portal", HazyHollowsPortalBlock::new);
 	public static final DeferredBlock<Block> TOAD_HOUSE_MODEL = register("toad_house_model", ToadHouseModelBlock::new);
-	public static final DeferredBlock<Block> DRY_SOIL = register("dry_soil", DrySoilBlock::new);
-	public static final DeferredBlock<Block> BURNT_LAWN_GENERATOR = register("burnt_lawn_generator", BurntLawnGeneratorBlock::new);
-	public static final DeferredBlock<Block> DARK_BROWN_STRIPE = register("dark_brown_stripe", DarkBrownStripeBlock::new);
-	public static final DeferredBlock<Block> LIGHT_BROWN_STRIPE = register("light_brown_stripe", LightBrownStripeBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

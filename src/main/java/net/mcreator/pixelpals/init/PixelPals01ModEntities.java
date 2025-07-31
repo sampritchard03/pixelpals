@@ -21,7 +21,6 @@ import net.mcreator.pixelpals.entity.PokemonEntity;
 import net.mcreator.pixelpals.entity.PokeballProjectileEntity;
 import net.mcreator.pixelpals.entity.PokeballOccupiedProjectileEntity;
 import net.mcreator.pixelpals.entity.Lvl1LandPokeGeneratorEntity;
-import net.mcreator.pixelpals.entity.ChestEntityEntity;
 import net.mcreator.pixelpals.PixelPals01Mod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
@@ -39,10 +38,6 @@ public class PixelPals01ModEntities {
 					.ridingOffset(-0.6f).sized(0.6f, 1.8f));
 	public static final DeferredHolder<EntityType<?>, EntityType<PokeballOccupiedProjectileEntity>> POKEBALL_OCCUPIED_PROJECTILE = register("pokeball_occupied_projectile",
 			EntityType.Builder.<PokeballOccupiedProjectileEntity>of(PokeballOccupiedProjectileEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final DeferredHolder<EntityType<?>, EntityType<ChestEntityEntity>> CHEST_ENTITY = register("chest_entity",
-			EntityType.Builder.<ChestEntityEntity>of(ChestEntityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-
-					.ridingOffset(-0.6f).sized(1.8f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -54,13 +49,11 @@ public class PixelPals01ModEntities {
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		PokemonEntity.init(event);
 		Lvl1LandPokeGeneratorEntity.init(event);
-		ChestEntityEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(POKEMON.get(), PokemonEntity.createAttributes().build());
 		event.put(LVL_1_LAND_POKE_GENERATOR.get(), Lvl1LandPokeGeneratorEntity.createAttributes().build());
-		event.put(CHEST_ENTITY.get(), ChestEntityEntity.createAttributes().build());
 	}
 }

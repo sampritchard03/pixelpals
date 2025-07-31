@@ -12,7 +12,6 @@ import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import net.mcreator.pixelpals.client.renderer.PokemonRenderer;
 import net.mcreator.pixelpals.client.renderer.Lvl1LandPokeGeneratorRenderer;
-import net.mcreator.pixelpals.client.renderer.ChestEntityRenderer;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class PixelPals01ModEntityRenderers {
@@ -22,6 +21,5 @@ public class PixelPals01ModEntityRenderers {
 		event.registerEntityRenderer(PixelPals01ModEntities.POKEBALL_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(PixelPals01ModEntities.LVL_1_LAND_POKE_GENERATOR.get(), Lvl1LandPokeGeneratorRenderer::new);
 		event.registerEntityRenderer(PixelPals01ModEntities.POKEBALL_OCCUPIED_PROJECTILE.get(), ThrownItemRenderer::new);
-		event.registerEntityRenderer(PixelPals01ModEntities.CHEST_ENTITY.get(), ChestEntityRenderer::new);
 	}
 }
