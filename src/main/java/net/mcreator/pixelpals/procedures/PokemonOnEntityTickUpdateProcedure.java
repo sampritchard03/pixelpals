@@ -189,6 +189,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.CATERPIE_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 20);
+					bHp = 45;
+					bAtk = 30;
+					bDef = 35;
+					bSpAtk = 20;
+					bSpDef = 20;
+					bSpe = 45;	
 					break;
 				case "metapod" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
@@ -196,6 +202,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.METAPOD_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 40);
+					bHp = 50;
+					bAtk = 20;
+					bDef = 55;
+					bSpAtk = 25;
+					bSpDef = 25;
+					bSpe = 30;	
 					break;
 				case "butterfree" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
@@ -203,6 +215,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.BUTTERFREE_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 55);
+					bHp = 60;
+					bAtk = 45;
+					bDef = 50;
+					bSpAtk = 80;
+					bSpDef = 80;
+					bSpe = 70;	
 					break;
 				case "weedle" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
@@ -210,6 +228,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.WEEDLE_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 20);
+					bHp = 40;
+					bAtk = 35;
+					bDef = 30;
+					bSpAtk = 20;
+					bSpDef = 20;
+					bSpe = 50;	
 					break;
 				case "kakuna" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
@@ -217,6 +241,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.KAKUNA_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 40);
+					bHp = 45;
+					bAtk = 25;
+					bDef = 50;
+					bSpAtk = 25;
+					bSpDef = 25;
+					bSpe = 35;	
 					break;
 				case "beedrill" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
@@ -224,6 +254,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.BEEDRILL_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 65);
+					bHp = 65;
+					bAtk = 80;
+					bDef = 40;
+					bSpAtk = 45;
+					bSpDef = 80;
+					bSpe = 75;	
 					break;
 				case "pidgey" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
@@ -231,6 +267,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.PIDGEY_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 30);
+					bHp = 40;
+					bAtk = 45;
+					bDef = 40;
+					bSpAtk = 35;
+					bSpDef = 35;
+					bSpe = 56;	
 					break;
 				case "rattata" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
@@ -238,6 +280,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.RATTATA_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 30);
+					bHp = 30;
+					bAtk = 56;
+					bDef = 35;
+					bSpAtk = 25;
+					bSpDef = 35;
+					bSpe = 72;	
 					break;
 				case "machamp" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
@@ -245,6 +293,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.MACHAMP_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 80);
+					bHp = 90;
+					bAtk = 130;
+					bDef = 80;
+					bSpAtk = 65;
+					bSpDef = 85;
+					bSpe = 55;	
 					break;
 				case "krabby" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
@@ -252,6 +306,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.KRABBY_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 30);
+					bHp = 30;
+					bAtk = 105;
+					bDef = 90;
+					bSpAtk = 25;
+					bSpDef = 25;
+					bSpe = 50;	
 					break;
 				case "mrmime" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
@@ -259,6 +319,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.MR_MIME_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 65);
+					bHp = 40;
+					bAtk = 45;
+					bDef = 65;
+					bSpAtk = 100;
+					bSpDef = 120;
+					bSpe = 90;	
 					break;
 				case "snorlax" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
@@ -266,6 +332,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.SNORLAX_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 130);
+					bHp = 160;
+					bAtk = 110;
+					bDef = 65;
+					bSpAtk = 65;
+					bSpDef = 110;
+					bSpe = 30;	
 					break;
 				case "armaldo" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
@@ -273,6 +345,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.ARMALDO_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 110);
+					bHp = 75;
+					bAtk = 125;
+					bDef = 100;
+					bSpAtk = 70;
+					bSpDef = 80;
+					bSpe = 45;	
 					break;
 				case "darkrai" :
 					if (entity.getEntityData().get(PokemonEntity.DATA_Shiny) == 1)
@@ -280,6 +358,12 @@ public class PokemonOnEntityTickUpdateProcedure {
 					else
 						_living.setItemSlot(EquipmentSlot.HEAD, new ItemStack(PixelPals01ModItems.DARKRAI_MASK.get()));
 					entity.getEntityData().set(PokemonEntity.DATA_Scale, 110);
+					bHp = 70;
+					bAtk = 90;
+					bDef = 90;
+					bSpAtk = 135;
+					bSpDef = 90;
+					bSpe = 125;	
 					break;
 			}
 		}
