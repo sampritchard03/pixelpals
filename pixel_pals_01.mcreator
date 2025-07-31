@@ -2586,22 +2586,22 @@
   },
   "metadata": {
     "files": [
-      "src/main/resources/assets/pixel_pals_01/sounds.json",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/pixelpals/network/PixelPals01ModVariables.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/pixelpals/PixelPals01Mod.java",
       "src/main/java/net/mcreator/pixelpals/init/PixelPals01ModTabs.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/pixelpals/init/PixelPals01ModSounds.java",
+      "src/main/java/net/mcreator/pixelpals/network/PixelPals01ModVariables.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/assets/pixel_pals_01/sounds.json",
       "src/main/java/net/mcreator/pixelpals/init/PixelPals01ModMenus.java",
-      "src/main/java/net/mcreator/pixelpals/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/pixelpals/init/PixelPals01ModScreens.java",
+      "src/main/java/net/mcreator/pixelpals/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/pixelpals/init/PixelPals01ModKeyMappings.java",
       "src/main/java/net/mcreator/pixelpals/init/PixelPals01ModBlocks.java",
       "src/main/java/net/mcreator/pixelpals/init/PixelPals01ModItems.java",
-      "src/main/java/net/mcreator/pixelpals/init/PixelPals01ModEntityRenderers.java",
-      "src/main/java/net/mcreator/pixelpals/init/PixelPals01ModEntities.java"
+      "src/main/java/net/mcreator/pixelpals/init/PixelPals01ModEntities.java",
+      "src/main/java/net/mcreator/pixelpals/init/PixelPals01ModEntityRenderers.java"
     ]
   },
   "foldersRoot": {
